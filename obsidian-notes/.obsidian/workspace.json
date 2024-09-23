@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attacking Common Services/Attacking FTP.md",
+                "file": "Enumeration/Enumerating RPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attacking Common Services/Attacking FTP.md",
+                "file": "Enumeration/Enumerating RPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attacking Common Services/Attacking FTP.md",
+                "file": "Enumeration/Enumerating RPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attacking Common Services/Attacking FTP.md"
+                "file": "Enumeration/Enumerating RPC.md"
               }
             }
           }
@@ -146,19 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86c45c49dc8c99e9",
+  "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Attacking SMB.md",
+    "Enumeration/Enumerating SMB.md",
+    "Enumeration/Attacking SMB.md",
+    "Enumeration/Enumerating RPC.md",
+    "Enumeration/Attacking FTP.md",
+    "Enumeration/Enumerating FTP.md",
+    "Attacking Common Services/Linux Accessing SMB Shares.md",
+    "Attacking Common Services/Common Tools List.md",
+    "Attacking Common Services/Windows Accessing SQL.md",
     "Attacking Common Services/Attacking SMB.md",
-    "Attacking Common Services/Attacking FTP.md",
+    "Enumeration",
+    "Attacking SMB.md",
     "Attacking Common Services",
     "New folder",
-    "Attacking Common Services/Common Services Extra/Windows Accessing SQL.md",
-    "Attacking Common Services/Common Services Extra/Linux Accessing SQL.md",
-    "Attacking Common Services/Common Services Extra/Windows Accessing SMB Shares.md",
-    "Attacking Common Services/Common Services Extra/Linux Accessing SMB Shares.md",
-    "Attacking Common Services/Common Services Extra/Linux Accessing Mail Services.md",
-    "Attacking Common Services/Common Services Extra/Common Tools List.md",
+    "Attacking Common Services/Linux Accessing SQL.md",
+    "Attacking Common Services/Windows Accessing SMB Shares.md",
+    "Attacking Common Services/Linux Accessing Mail Services.md",
     "Attacking Common Services/Common Services Extra",
     "Common Services Etc/Windows Accessing SQL.md",
     "Common Services Etc/Windows Accessing SMB Shares.md",
@@ -168,7 +173,6 @@
     "Common Services Etc/Common Tools List.md",
     "Common Services Etc",
     "Attacking FTP.md",
-    "Welcome.md",
-    "Untitled"
+    "Welcome.md"
   ]
 }
