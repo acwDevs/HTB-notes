@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeration/Attacking SMB.md",
+                "file": "Attacking Common Services/Attacking SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Attacking SMB.md",
+                "file": "Attacking Common Services/Attacking SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Attacking SMB.md",
+                "file": "Attacking Common Services/Attacking SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Attacking SMB.md"
+                "file": "Attacking Common Services/Attacking SQL.md"
               }
             }
           }
@@ -148,15 +148,16 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Enumeration/Enumerating SQL.md",
+    "Attacking Common Services/Attacking SQL.md",
+    "Attacking Common Services/Attacking SMB.md",
     "Enumeration/Enumerating SMB.md",
-    "Enumeration/Attacking SMB.md",
     "Enumeration/Enumerating RPC.md",
-    "Enumeration/Attacking FTP.md",
     "Enumeration/Enumerating FTP.md",
+    "Enumeration/Attacking FTP.md",
     "Attacking Common Services/Linux Accessing SMB Shares.md",
     "Attacking Common Services/Common Tools List.md",
     "Attacking Common Services/Windows Accessing SQL.md",
-    "Attacking Common Services/Attacking SMB.md",
     "Enumeration",
     "Attacking SMB.md",
     "Attacking Common Services",
