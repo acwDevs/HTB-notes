@@ -3,7 +3,7 @@ nmap script can be used (-sC does this automatically)
 ```
 ftp-anon
 ```
-Source:https://nmap.org/nsedoc/scripts/ftp-anon.html
+Source: https://nmap.org/nsedoc/scripts/ftp-anon.html
 
 Login Bruteforcing Tools
 	hydra
