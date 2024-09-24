@@ -43,3 +43,20 @@ or
 
 nslookup support.inlanefreight.com
 ```
+
+
+Check for subdomain takeover vulnerability
+https://github.com/EdOverflow/can-i-take-over-xyz
+
+Local DNS cache poisoning with ettercap or bettercap
+https://www.ettercap-project.org/
+https://www.bettercap.org/
+
+Add domain to file
+
+```shell-session
+Auzzie@htb[/htb]# cat /etc/ettercap/etter.dns
+
+inlanefreight.com      A   192.168.225.110
+*.inlanefreight.com    A   192.168.225.110
+```
