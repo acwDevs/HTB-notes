@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attacking Common Services/Attacking RDP.md",
+                "file": "Enumeration/Enumerating DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attacking Common Services/Attacking RDP.md",
+                "file": "Enumeration/Enumerating DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attacking Common Services/Attacking RDP.md",
+                "file": "Enumeration/Enumerating DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attacking Common Services/Attacking RDP.md"
+                "file": "Enumeration/Enumerating DNS.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Attacking Common Services/Attacking RDP.md",
+    "Enumeration/Enumerating DNS.md",
+    "Enumeration/Enumerating RDP.md",
     "Shells/Shell Upgrades.md",
     "Shells/Shells Module.md",
-    "Attacking Common Services/Attacking RDP.md",
     "Enumeration/Enumerating SQL.md",
     "Attacking Common Services/Attacking SQL.md",
     "Users&Passwords/Sources.md",
@@ -176,8 +178,6 @@
     "Common Services Etc/Linux Accessing SQL.md",
     "Common Services Etc/Linux Accessing SMB Shares.md",
     "Common Services Etc/Linux Accessing Mail Services.md",
-    "Common Services Etc/Common Tools List.md",
-    "Common Services Etc",
-    "Attacking FTP.md"
+    "Common Services Etc"
   ]
 }
