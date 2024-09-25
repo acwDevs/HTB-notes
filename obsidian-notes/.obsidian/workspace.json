@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeration/Enumerating DNS.md",
+                "file": "Enumeration/Enumerating Mail Services.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Enumerating DNS.md",
+                "file": "Enumeration/Enumerating Mail Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Enumerating DNS.md",
+                "file": "Enumeration/Enumerating Mail Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Enumerating DNS.md"
+                "file": "Enumeration/Enumerating Mail Services.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Attacking Common Services/Attacking RDP.md",
+    "Pasted image 20240924215757.png",
     "Enumeration/Enumerating DNS.md",
+    "Enumeration/Enumerating Mail Services.md",
+    "Attacking Common Services/Attacking RDP.md",
     "Enumeration/Enumerating RDP.md",
     "Shells/Shell Upgrades.md",
     "Shells/Shells Module.md",
@@ -176,8 +178,6 @@
     "Common Services Etc/Windows Accessing SQL.md",
     "Common Services Etc/Windows Accessing SMB Shares.md",
     "Common Services Etc/Linux Accessing SQL.md",
-    "Common Services Etc/Linux Accessing SMB Shares.md",
-    "Common Services Etc/Linux Accessing Mail Services.md",
     "Common Services Etc"
   ]
 }
