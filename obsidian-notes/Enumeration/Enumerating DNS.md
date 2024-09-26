@@ -7,7 +7,7 @@ nmap -p53 -Pn -sV -sC 10.10.110.213
 
 Zone transfer enum with dig
 ```shell-session
-dig AXFR @ns1.inlanefreight.htb inlanefreight.htb
+dig AXFR @ns.inlanefreight.htb inlanefreight.htb
 ```
 
 
@@ -25,8 +25,7 @@ https://github.com/projectdiscovery/subfinder
 
 https://github.com/aboul3la/Sublist3r
 
-
-Good for offline attacks
+Good for finding subdomain offline (We like this one a lot)
 https://github.com/TheRook/subbrute
 ```shell-session
 Auzzie@htb[/htb]$ git clone https://github.com/TheRook/subbrute.git >> /dev/null 2>&1
