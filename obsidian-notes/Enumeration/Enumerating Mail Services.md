@@ -105,16 +105,6 @@ it is
 RCPT TO:julio
 
 550 5.1.1 julio... User unknown
-
-
-RCPT TO:kate
-
-550 5.1.1 kate... User unknown
-
-
-RCPT TO:john
-
-250 2.1.5 john... Recipient ok
 ```
 
 Automated tools 

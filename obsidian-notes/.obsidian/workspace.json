@@ -148,9 +148,11 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Network Footprinting/IMAP-POP3.md",
+    "Network Footprinting/SMTP.md",
+    "Enumeration/Enumerating Mail Services.md",
     "Pasted image 20240924215757.png",
     "Enumeration/Enumerating DNS.md",
-    "Enumeration/Enumerating Mail Services.md",
     "Attacking Common Services/Attacking RDP.md",
     "Enumeration/Enumerating RDP.md",
     "Shells/Shell Upgrades.md",
@@ -177,7 +179,6 @@
     "Attacking Common Services/Common Services Extra",
     "Common Services Etc/Windows Accessing SQL.md",
     "Common Services Etc/Windows Accessing SMB Shares.md",
-    "Common Services Etc/Linux Accessing SQL.md",
     "Common Services Etc"
   ]
 }
