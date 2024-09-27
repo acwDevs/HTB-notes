@@ -1,4 +1,7 @@
 
+Use HELO command without creds before running anything else on the mail service
+Use EHLO with creds
+
 Ports
 	`110`, `143`, `993`, and `995`
 
