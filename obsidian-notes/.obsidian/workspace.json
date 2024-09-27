@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Footprinting/IMAP-POP3.md",
+                "file": "Shells/Shells Module.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Footprinting/IMAP-POP3.md",
+                "file": "Shells/Shells Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Footprinting/IMAP-POP3.md",
+                "file": "Shells/Shells Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Footprinting/IMAP-POP3.md"
+                "file": "Shells/Shells Module.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Enumeration/Enumerating Mail Services.md",
+    "Web Footprinting/Finding vhost and subdomains.md",
+    "Web Footprinting/DNS.md",
+    "Network Footprinting/MySQL.md",
+    "Network Footprinting/MSSQL.md",
     "Network Footprinting/IMAP-POP3.md",
+    "Enumeration/Enumerating Mail Services.md",
     "Network Footprinting/SMTP.md",
     "Pasted image 20240924215757.png",
     "Enumeration/Enumerating DNS.md",
@@ -174,11 +178,7 @@
     "Attacking Common Services",
     "New folder",
     "Attacking Common Services/Linux Accessing SQL.md",
-    "Attacking Common Services/Windows Accessing SMB Shares.md",
-    "Attacking Common Services/Linux Accessing Mail Services.md",
     "Attacking Common Services/Common Services Extra",
-    "Common Services Etc/Windows Accessing SQL.md",
-    "Common Services Etc/Windows Accessing SMB Shares.md",
     "Common Services Etc"
   ]
 }
