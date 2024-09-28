@@ -10,7 +10,9 @@ Ports
 ![[pop3-cmds.png]]
 
 ![[imap-cmds.png]]
-Imaps footprinting
+
+
+Banner Grabbing
 	curl -k 'imaps://x.x.x.x' --user user:pass
 	SSL enabled
 		openssl s_client -connect 10.129.14.128:imaps

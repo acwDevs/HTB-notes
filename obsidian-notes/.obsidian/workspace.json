@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shells/Shells Module.md",
+                "file": "Enumeration/Enumerating FTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shells/Shells Module.md",
+                "file": "Enumeration/Enumerating FTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shells/Shells Module.md",
+                "file": "Enumeration/Enumerating FTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shells/Shells Module.md"
+                "file": "Enumeration/Enumerating FTP.md"
               }
             }
           }
@@ -148,19 +148,21 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Enumeration/Enumerating DNS.md",
+    "Network Footprinting/IMAP-POP3.md",
+    "Network Footprinting/Challenge Notes/Hard.md",
+    "Network Footprinting/Challenge Notes/Medium.md",
+    "Enumeration/Enumerating Mail Services.md",
+    "Shells/Shells Module.md",
     "Web Footprinting/Finding vhost and subdomains.md",
     "Web Footprinting/DNS.md",
     "Network Footprinting/MySQL.md",
     "Network Footprinting/MSSQL.md",
-    "Network Footprinting/IMAP-POP3.md",
-    "Enumeration/Enumerating Mail Services.md",
     "Network Footprinting/SMTP.md",
     "Pasted image 20240924215757.png",
-    "Enumeration/Enumerating DNS.md",
     "Attacking Common Services/Attacking RDP.md",
     "Enumeration/Enumerating RDP.md",
     "Shells/Shell Upgrades.md",
-    "Shells/Shells Module.md",
     "Enumeration/Enumerating SQL.md",
     "Attacking Common Services/Attacking SQL.md",
     "Users&Passwords/Sources.md",
@@ -174,10 +176,8 @@
     "Attacking Common Services/Common Tools List.md",
     "Attacking Common Services/Windows Accessing SQL.md",
     "Enumeration",
-    "Attacking SMB.md",
     "Attacking Common Services",
     "New folder",
-    "Attacking Common Services/Linux Accessing SQL.md",
     "Attacking Common Services/Common Services Extra",
     "Common Services Etc"
   ]
