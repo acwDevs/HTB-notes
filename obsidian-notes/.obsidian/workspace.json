@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeration/Enumerating FTP.md",
+                "file": "Enumeration/Enumerating RPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Enumerating FTP.md",
+                "file": "Enumeration/Enumerating RPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Enumerating FTP.md",
+                "file": "Enumeration/Enumerating RPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Enumerating FTP.md"
+                "file": "Enumeration/Enumerating RPC.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Enumeration/Enumerating SMB.md",
+    "Enumeration/Enumerating RPC.md",
+    "Enumeration/Enumerating FTP.md",
     "Enumeration/Enumerating DNS.md",
     "Network Footprinting/IMAP-POP3.md",
     "Network Footprinting/Challenge Notes/Hard.md",
@@ -168,9 +171,6 @@
     "Users&Passwords/Sources.md",
     "Shells/SMB.md",
     "Attacking Common Services/Attacking SMB.md",
-    "Enumeration/Enumerating SMB.md",
-    "Enumeration/Enumerating RPC.md",
-    "Enumeration/Enumerating FTP.md",
     "Enumeration/Attacking FTP.md",
     "Attacking Common Services/Linux Accessing SMB Shares.md",
     "Attacking Common Services/Common Tools List.md",
