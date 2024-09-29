@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Port Forwarding.md",
+                "file": "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Port Forwarding.md",
+                "file": "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Port Forwarding.md",
+                "file": "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Port Forwarding.md"
+                "file": "Pivot-Tunnel-Forward/Reverse Port Forwarding.md"
               }
             }
           }
@@ -160,11 +160,12 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Attacking Common Services/Attacking RDP.md",
+    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
+    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Pivot-Tunnel-Forward/SSH Tunneling over SOCKS proxy.md",
     "Enumeration/Enumerating RDP.md",
-    "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
     "Enumeration/Enumerating SQL.md",
     "Attacking Common Services/Attacking SQL.md",
@@ -186,7 +187,6 @@
     "Pasted image 20240924215757.png",
     "Shells/Shell Upgrades.md",
     "Users&Passwords/Sources.md",
-    "Shells/SMB.md",
     "Enumeration",
     "Attacking Common Services",
     "New folder",
