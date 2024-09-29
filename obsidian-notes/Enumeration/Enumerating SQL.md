@@ -64,6 +64,12 @@ Show Databases
 2> GO
 ```
 
+Reading Local Files
+```cmd-session
+1> SELECT * FROM OPENROWSET(BULK N'C:/Windows/System32/drivers/etc/hosts', SINGLE_CLOB) AS Contents
+2> GO
+```
+
 
 
 MSSQL Finding Linked Servers (`1` means is a remote server, and `0` is a linked server)

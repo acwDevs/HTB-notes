@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeration/Enumerating RPC.md",
+                "file": "Enumeration/Enumerating SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Enumerating RPC.md",
+                "file": "Enumeration/Enumerating SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Enumerating RPC.md",
+                "file": "Enumeration/Enumerating SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Enumerating RPC.md"
+                "file": "Enumeration/Enumerating SQL.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Enumeration/Enumerating SMB.md",
+    "Attacking Common Services/Attacking SQL.md",
+    "Enumeration/Enumerating SQL.md",
+    "Attacking Common Services/Attacking SMB.md",
+    "Network Footprinting/MySQL.md",
+    "Network Footprinting/MSSQL.md",
     "Enumeration/Enumerating RPC.md",
+    "Enumeration/Enumerating SMB.md",
     "Enumeration/Enumerating FTP.md",
     "Enumeration/Enumerating DNS.md",
     "Network Footprinting/IMAP-POP3.md",
@@ -159,18 +164,13 @@
     "Shells/Shells Module.md",
     "Web Footprinting/Finding vhost and subdomains.md",
     "Web Footprinting/DNS.md",
-    "Network Footprinting/MySQL.md",
-    "Network Footprinting/MSSQL.md",
     "Network Footprinting/SMTP.md",
     "Pasted image 20240924215757.png",
     "Attacking Common Services/Attacking RDP.md",
     "Enumeration/Enumerating RDP.md",
     "Shells/Shell Upgrades.md",
-    "Enumeration/Enumerating SQL.md",
-    "Attacking Common Services/Attacking SQL.md",
     "Users&Passwords/Sources.md",
     "Shells/SMB.md",
-    "Attacking Common Services/Attacking SMB.md",
     "Enumeration/Attacking FTP.md",
     "Attacking Common Services/Linux Accessing SMB Shares.md",
     "Attacking Common Services/Common Tools List.md",
