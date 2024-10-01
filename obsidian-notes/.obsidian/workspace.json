@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeration/Enumerating Mail Services.md",
+                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d544654a557511a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Enumerating Mail Services.md",
+                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Enumerating Mail Services.md",
+                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Enumerating Mail Services.md"
+                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md"
               }
             }
           }
@@ -148,37 +160,38 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Network Footprinting/IMAP-POP3.md",
-    "Network Footprinting/SMTP.md",
-    "Enumeration/Enumerating Mail Services.md",
-    "Pasted image 20240924215757.png",
-    "Enumeration/Enumerating DNS.md",
+    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
+    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
+    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+    "Post Exploitation/Installing python.md",
+    "Untitled.md",
+    "Post Exploitation",
+    "Pivot-Tunnel-Forward/Socat Redirection.md",
     "Attacking Common Services/Attacking RDP.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
+    "Pivot-Tunnel-Forward/SSH Tunneling over SOCKS proxy.md",
     "Enumeration/Enumerating RDP.md",
-    "Shells/Shell Upgrades.md",
-    "Shells/Shells Module.md",
+    "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
     "Enumeration/Enumerating SQL.md",
     "Attacking Common Services/Attacking SQL.md",
-    "Users&Passwords/Sources.md",
-    "Shells/SMB.md",
     "Attacking Common Services/Attacking SMB.md",
-    "Enumeration/Enumerating SMB.md",
+    "Network Footprinting/MySQL.md",
+    "Network Footprinting/MSSQL.md",
     "Enumeration/Enumerating RPC.md",
+    "Enumeration/Enumerating SMB.md",
     "Enumeration/Enumerating FTP.md",
-    "Enumeration/Attacking FTP.md",
-    "Attacking Common Services/Linux Accessing SMB Shares.md",
-    "Attacking Common Services/Common Tools List.md",
-    "Attacking Common Services/Windows Accessing SQL.md",
+    "Enumeration/Enumerating DNS.md",
+    "Network Footprinting/IMAP-POP3.md",
+    "Network Footprinting/Challenge Notes/Hard.md",
+    "Network Footprinting/Challenge Notes/Medium.md",
+    "Enumeration/Enumerating Mail Services.md",
+    "Shells/Shells Module.md",
+    "Web Footprinting/Finding vhost and subdomains.md",
+    "Pasted image 20240924215757.png",
     "Enumeration",
-    "Attacking SMB.md",
     "Attacking Common Services",
     "New folder",
-    "Attacking Common Services/Linux Accessing SQL.md",
-    "Attacking Common Services/Windows Accessing SMB Shares.md",
-    "Attacking Common Services/Linux Accessing Mail Services.md",
     "Attacking Common Services/Common Services Extra",
-    "Common Services Etc/Windows Accessing SQL.md",
-    "Common Services Etc/Windows Accessing SMB Shares.md",
     "Common Services Etc"
   ]
 }
