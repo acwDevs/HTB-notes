@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Pivot-Tunnel-Forward/Creating Tunnels.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.5
   },
   "right": {
     "id": "ce5ae2a926897a1c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Pivot-Tunnel-Forward/Creating Tunnels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Pivot-Tunnel-Forward/Creating Tunnels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md"
+                "file": "Pivot-Tunnel-Forward/Creating Tunnels.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
-    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
+    "Shells/Skills assessment notes.md",
+    "Shells/Shells Module.md",
+    "Shells/Shell Upgrades.md",
+    "Users&Passwords/Archive Hunting.md",
+    "Users&Passwords/File Hunting.md",
+    "Users&Passwords/Cewl.md",
+    "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Enumeration/Enumerating RDP.md",
     "Pivot-Tunnel-Forward/Socat Redirection.md",
@@ -169,13 +176,6 @@
     "Attacking Common Services/Windows Accessing SQL.md",
     "Attacking Common Services/Windows Accessing SMB Shares.md",
     "Attacking Common Services/Linux Accessing SQL.md",
-    "Attacking Common Services/Linux Accessing SMB Shares.md",
-    "Attacking Common Services/Linux Accessing Mail Services.md",
-    "Attacking Common Services/Common Tools List.md",
-    "Attacking Common Services/Attacking SQL.md",
-    "Attacking SMB.md",
-    "Attacking Common Services/Attacking SMB.md",
-    "Attacking Common Services/Attacking FTP.md",
     "Attacking Common Services",
     "New folder",
     "Common Services Extra",
