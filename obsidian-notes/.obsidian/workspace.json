@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d544654a557511a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -161,37 +149,37 @@
   "active": "deea267675b8f776",
   "lastOpenFiles": [
     "Pivot-Tunnel-Forward/Network Config Enumeration.md",
-    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
-    "Post Exploitation/Installing python.md",
-    "Untitled.md",
-    "Post Exploitation",
-    "Pivot-Tunnel-Forward/Socat Redirection.md",
-    "Attacking Common Services/Attacking RDP.md",
-    "Pivot-Tunnel-Forward/Port Forwarding.md",
-    "Pivot-Tunnel-Forward/SSH Tunneling over SOCKS proxy.md",
+    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Enumeration/Enumerating RDP.md",
-    "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
-    "Enumeration/Enumerating SQL.md",
-    "Attacking Common Services/Attacking SQL.md",
-    "Attacking Common Services/Attacking SMB.md",
-    "Network Footprinting/MySQL.md",
-    "Network Footprinting/MSSQL.md",
-    "Enumeration/Enumerating RPC.md",
-    "Enumeration/Enumerating SMB.md",
-    "Enumeration/Enumerating FTP.md",
-    "Enumeration/Enumerating DNS.md",
-    "Network Footprinting/IMAP-POP3.md",
-    "Network Footprinting/Challenge Notes/Hard.md",
-    "Network Footprinting/Challenge Notes/Medium.md",
+    "Pivot-Tunnel-Forward/Socat Redirection.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Enumeration/Enumerating Mail Services.md",
-    "Shells/Shells Module.md",
-    "Web Footprinting/Finding vhost and subdomains.md",
+    "Enumeration/Enumerating SQL.md",
+    "Enumeration/Enumerating FTP.md",
+    "Network Footprinting/FTP.md",
+    "Network Footprinting/IMAP-POP3.md",
+    "Network Footprinting/SMTP.md",
+    "Enumeration/Enumerating DNS.md",
     "Pasted image 20240924215757.png",
+    "Attacking Common Services/Attacking RDP.md",
+    "Enumeration/Enumerating SMB.md",
+    "Enumeration/Enumerating RPC.md",
     "Enumeration",
+    "Attacking Common Services/Windows Accessing SQL.md",
+    "Attacking Common Services/Windows Accessing SMB Shares.md",
+    "Attacking Common Services/Linux Accessing SQL.md",
+    "Attacking Common Services/Linux Accessing SMB Shares.md",
+    "Attacking Common Services/Linux Accessing Mail Services.md",
+    "Attacking Common Services/Common Tools List.md",
+    "Attacking Common Services/Attacking SQL.md",
+    "Attacking SMB.md",
+    "Attacking Common Services/Attacking SMB.md",
+    "Attacking Common Services/Attacking FTP.md",
     "Attacking Common Services",
     "New folder",
-    "Attacking Common Services/Common Services Extra",
-    "Common Services Etc"
+    "Common Services Extra",
+    "Common Services Etc",
+    "Untitled"
   ]
 }

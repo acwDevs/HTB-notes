@@ -50,3 +50,17 @@ Connect to web server via http-proxy & NTLM Auth
 ```shell-session
 python client.py --server-ip <IPaddressofTargetWebServer> --server-port 8080 --ntlm-proxy-ip <IPaddressofProxy> --ntlm-proxy-port 8081 --domain <nameofWindowsDomain> --username <username> --password <password>
 ```
+
+
+## Netsh
+
+
+port forwarding
+```cmd-session
+netsh.exe interface portproxy add v4tov4 listenport=8080 listenaddress=10.129.15.150 connectport=3389 connectaddress=172.16.5.25
+```
+
+verify forwarding 
+```cmd-session
+netsh.exe interface portproxy show v4tov4
+```
