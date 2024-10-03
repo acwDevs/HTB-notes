@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md"
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md"
               }
             }
           }
@@ -158,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "deea267675b8f776",
+  "active": "d544654a557511a7",
   "lastOpenFiles": [
+    "Pasted image 20241003001700.png",
+    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
-    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Post Exploitation/Installing python.md",
     "Untitled.md",
     "Post Exploitation",
@@ -186,7 +188,6 @@
     "Network Footprinting/Challenge Notes/Hard.md",
     "Network Footprinting/Challenge Notes/Medium.md",
     "Enumeration/Enumerating Mail Services.md",
-    "Shells/Shells Module.md",
     "Pasted image 20240924215757.png",
     "Enumeration",
     "Attacking Common Services",
