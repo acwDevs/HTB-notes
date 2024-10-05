@@ -23,7 +23,7 @@ With this command, sshuttle creates an entry in our `iptables` to redirect all
 Run commands like usual since we have the entry within iptables and traffic is being routed.
 
 ## Rpivot
-https://github.com/klsecservices/rpivot
+	https://github.ccd rpom/klsecservices/rpivot
 
 Starting from attack host
 ```shell-session
