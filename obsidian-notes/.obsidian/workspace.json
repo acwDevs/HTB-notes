@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Users&Passwords/Windows LSASS.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Users&Passwords/Windows LSASS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+                "file": "Users&Passwords/Windows LSASS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/SSH Pivoting Methods.md"
+                "file": "Users&Passwords/Windows LSASS.md"
               }
             }
           }
@@ -160,10 +160,13 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Users&Passwords/Windows Cred Hunting.md",
+    "Users&Passwords/Archive Hunting.md",
+    "Users&Passwords/File Hunting.md",
+    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pasted image 20241003001700.png",
-    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Post Exploitation/Installing python.md",
     "Untitled.md",
@@ -185,8 +188,6 @@
     "Enumeration/Enumerating DNS.md",
     "Network Footprinting/IMAP-POP3.md",
     "Network Footprinting/Challenge Notes/Hard.md",
-    "Network Footprinting/Challenge Notes/Medium.md",
-    "Enumeration/Enumerating Mail Services.md",
     "Pasted image 20240924215757.png",
     "Enumeration",
     "Attacking Common Services",
