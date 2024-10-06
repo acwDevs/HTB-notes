@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Users&Passwords/Windows LSASS.md",
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Users&Passwords/Windows LSASS.md",
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Users&Passwords/Windows LSASS.md",
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Users&Passwords/Windows LSASS.md"
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md"
               }
             }
           }
@@ -160,20 +160,21 @@
   },
   "active": "deea267675b8f776",
   "lastOpenFiles": [
+    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
+    "Pivot-Tunnel-Forward/Socat Redirection.md",
+    "Pivot-Tunnel-Forward/Creating Tunnels.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
+    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
+    "Users&Passwords/Windows LSASS.md",
     "Users&Passwords/Windows Cred Hunting.md",
     "Users&Passwords/Archive Hunting.md",
     "Users&Passwords/File Hunting.md",
-    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Pivot-Tunnel-Forward/Network Config Enumeration.md",
-    "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pasted image 20241003001700.png",
-    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Post Exploitation/Installing python.md",
     "Untitled.md",
     "Post Exploitation",
-    "Pivot-Tunnel-Forward/Socat Redirection.md",
     "Attacking Common Services/Attacking RDP.md",
-    "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Pivot-Tunnel-Forward/SSH Tunneling over SOCKS proxy.md",
     "Enumeration/Enumerating RDP.md",
     "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
@@ -187,7 +188,6 @@
     "Enumeration/Enumerating FTP.md",
     "Enumeration/Enumerating DNS.md",
     "Network Footprinting/IMAP-POP3.md",
-    "Network Footprinting/Challenge Notes/Hard.md",
     "Pasted image 20240924215757.png",
     "Enumeration",
     "Attacking Common Services",
