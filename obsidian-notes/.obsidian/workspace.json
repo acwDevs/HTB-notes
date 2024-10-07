@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
+                "file": "Users&Passwords/hashcat.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
+                "file": "Users&Passwords/hashcat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
+                "file": "Users&Passwords/hashcat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md"
+                "file": "Users&Passwords/hashcat.md"
               }
             }
           }
@@ -148,16 +148,20 @@
   },
   "active": "d544654a557511a7",
   "lastOpenFiles": [
+    "Users&Passwords/Hydra.md",
+    "Users&Passwords/Sources.md",
+    "Users&Passwords/PassTheHash Attack Windows.md",
+    "Users&Passwords/hashcat.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
+    "Users&Passwords/Windows LSASS.md",
+    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
+    "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Active Directory/Resources.md",
     "Untitled.md",
     "Active Directory",
-    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Pivot-Tunnel-Forward/Socat Redirection.md",
-    "Pivot-Tunnel-Forward/Creating Tunnels.md",
-    "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
-    "Users&Passwords/Windows LSASS.md",
     "Users&Passwords/Windows Cred Hunting.md",
     "Users&Passwords/Archive Hunting.md",
     "Users&Passwords/File Hunting.md",
@@ -173,10 +177,6 @@
     "Attacking Common Services/Attacking SMB.md",
     "Network Footprinting/MySQL.md",
     "Network Footprinting/MSSQL.md",
-    "Enumeration/Enumerating RPC.md",
-    "Enumeration/Enumerating SMB.md",
-    "Enumeration/Enumerating FTP.md",
-    "Enumeration/Enumerating DNS.md",
     "Pasted image 20240924215757.png",
     "Enumeration",
     "Attacking Common Services",
