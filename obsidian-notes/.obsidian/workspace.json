@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
+                "file": "Pivot-Tunnel-Forward/Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
+                "file": "Pivot-Tunnel-Forward/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
+                "file": "Pivot-Tunnel-Forward/Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Routing kerberos traffic.md"
+                "file": "Pivot-Tunnel-Forward/Resources.md"
               }
             }
           }
@@ -148,10 +148,16 @@
   },
   "active": "d544654a557511a7",
   "lastOpenFiles": [
-    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
-    "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
-    "Pivot-Tunnel-Forward/Port Forwarding.md",
+    "Pivot-Tunnel-Forward/MITRE Breakdown.md",
+    "Pivot-Tunnel-Forward/Resources.md",
+    "Pasted image 20241014160326.png",
     "Pivot-Tunnel-Forward/Creating Tunnels.md",
+    "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
+    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
+    "SQL/SQLMAP.md",
+    "SQL",
+    "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Users&Passwords/hashcat.md",
     "Users&Passwords/Hydra.md",
     "Users&Passwords/Sources.md",
@@ -160,7 +166,6 @@
     "Active Directory/Resources.md",
     "Untitled.md",
     "Active Directory",
-    "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Pivot-Tunnel-Forward/Socat Redirection.md",
     "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Users&Passwords/Windows Cred Hunting.md",
@@ -174,9 +179,6 @@
     "Enumeration/Enumerating RDP.md",
     "Enumeration/Enumerating SQL.md",
     "Attacking Common Services/Attacking SQL.md",
-    "Attacking Common Services/Attacking SMB.md",
-    "Network Footprinting/MySQL.md",
-    "Network Footprinting/MSSQL.md",
     "Pasted image 20240924215757.png",
     "Enumeration",
     "Attacking Common Services",
