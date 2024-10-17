@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Resources.md",
+                "file": "Users&Passwords/Hydra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Resources.md",
+                "file": "Users&Passwords/Hydra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Resources.md",
+                "file": "Users&Passwords/Hydra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pivot-Tunnel-Forward/Resources.md"
+                "file": "Users&Passwords/Hydra.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "d544654a557511a7",
   "lastOpenFiles": [
-    "Pivot-Tunnel-Forward/MITRE Breakdown.md",
+    "Users&Passwords/Custom BruteForce Tools.md",
+    "Pasted image 20241016195900.png",
     "Pivot-Tunnel-Forward/Resources.md",
+    "Pivot-Tunnel-Forward/MITRE Breakdown.md",
     "Pasted image 20241014160326.png",
     "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
@@ -177,8 +179,6 @@
     "Attacking Common Services/Attacking RDP.md",
     "Pivot-Tunnel-Forward/SSH Tunneling over SOCKS proxy.md",
     "Enumeration/Enumerating RDP.md",
-    "Enumeration/Enumerating SQL.md",
-    "Attacking Common Services/Attacking SQL.md",
     "Pasted image 20240924215757.png",
     "Enumeration",
     "Attacking Common Services",
