@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Resources.md",
+                "file": "Active Directory/Enumeration.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Enumeration"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory/Resources.md",
+                "file": "Active Directory/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Enumeration"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Active Directory/Resources.md",
+                "file": "Active Directory/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Enumeration"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory/Resources.md"
-              }
+                "file": "Active Directory/Enumeration.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Enumeration"
             }
           }
         ]
@@ -148,6 +164,8 @@
   },
   "active": "d544654a557511a7",
   "lastOpenFiles": [
+    "Active Directory/Resources.md",
+    "Active Directory/Enumeration.md",
     "Users&Passwords/Hydra.md",
     "Users&Passwords/Custom BruteForce Tools.md",
     "Pasted image 20241016195900.png",
@@ -165,7 +183,6 @@
     "Users&Passwords/Sources.md",
     "Users&Passwords/PassTheHash Attack Windows.md",
     "Users&Passwords/Windows LSASS.md",
-    "Active Directory/Resources.md",
     "Untitled.md",
     "Active Directory",
     "Pivot-Tunnel-Forward/Socat Redirection.md",
