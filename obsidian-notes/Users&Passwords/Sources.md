@@ -1,3 +1,10 @@
+Leaked credential finder
+http://dehashed.com/
+
+```shell-session
+sudo python3 dehashed.py -q inlanefreight.local -p
+```
+
 
 default creds
 	https://github.com/ihebski/DefaultCreds-cheat-sheet
