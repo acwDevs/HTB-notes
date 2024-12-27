@@ -15,3 +15,5 @@ whoami /priv
 ```
 
 
+Generating user account list
+https://github.com/insidetrust/statistically-likely-usernames

