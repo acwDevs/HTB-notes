@@ -17,3 +17,14 @@ whoami /priv
 
 Generating user account list
 https://github.com/insidetrust/statistically-likely-usernames
+
+
+Finding NULL Sessions
+
+```shell-session
+crackmapexec smb 172.16.5.5 -u avazquez -p Password123 --pass-pol
+```
+
+```shell-session
+rpcclient -U "" -N 172.16.5.5
+```
