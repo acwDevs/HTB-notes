@@ -1,3 +1,8 @@
+Finding active host within domain
+```shell-session
+fping -asgq 172.16.5.0/23
+```
+
 
 Get common user attributes
 ```powershell-session

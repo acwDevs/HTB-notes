@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Enumeration.md",
+                "file": "Active Directory/rpcclient commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "rpcclient commands"
             }
           }
         ],
@@ -193,9 +193,9 @@
   },
   "active": "4af15f1e3fe2431c",
   "lastOpenFiles": [
+    "Active Directory/Enumeration.md",
     "Active Directory/rpcclient commands.md",
     "Active Directory/Tools.md",
-    "Active Directory/Enumeration.md",
     "Attacking Common Services/Attacking SMB.md",
     "Users&Passwords/hashcat.md",
     "Users&Passwords/Custom BruteForce Tools.md",
