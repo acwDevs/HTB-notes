@@ -5,6 +5,8 @@ http://dehashed.com/
 sudo python3 dehashed.py -q inlanefreight.local -p
 ```
 
+statistically likely usernames
+	https://github.com/insidetrust/statistically-likely-usernames
 
 default creds
 	https://github.com/ihebski/DefaultCreds-cheat-sheet
