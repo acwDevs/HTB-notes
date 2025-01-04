@@ -1,6 +1,5 @@
 
 "Ultimate" anti debug reference
-
 https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf
 
 Art of unpacking 

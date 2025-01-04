@@ -13,3 +13,9 @@ password policy
 ```shell-session
 getdompwinfo
 ```
+
+get user info with RID
+```shell-session
+queryuser 0x457
+```
+

