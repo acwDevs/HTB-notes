@@ -21,3 +21,9 @@ SharpView
 
 Impacket
 	https://github.com/fortra/impacket.git
+
+Rubeus
+	https://github.com/GhostPack/Rubeus
+
+kirbi2john
+	https://raw.githubusercontent.com/nidem/kerberoast/907bf234745fe907cf85f3fd916d1c14ab9d65c0/kirbi2john.py
