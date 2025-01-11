@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Mimikatz Command.md",
+                "file": "Active Directory/DCSync Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mimikatz Command"
+              "title": "DCSync Attack"
             }
           }
         ],
@@ -179,18 +179,23 @@
   },
   "active": "0d3e047fe7870be0",
   "lastOpenFiles": [
+    "Active Directory/Custom Bloodhound Cypher query.md",
+    "Active Directory/bloodhound commands.md",
+    "Active Directory/ACL Attacks.md",
+    "Active Directory/ACL & ACE Enumeration.md",
+    "Network Footprinting/MySQL.md",
+    "Network Footprinting/NFS.md",
+    "Network Footprinting/Linux Remote Management Protocols.md",
+    "Network Footprinting/IPMI.md",
+    "Network Footprinting/FTP.md",
+    "Active Directory/Mimikatz Command.md",
     "Active Directory/Rubeus commands.md",
     "Active Directory/Double Hop Workarounds.md",
     "Active Directory/lateral movement&escalation.md",
-    "Active Directory/ACL Attacks.md",
-    "Active Directory/bloodhound commands.md",
-    "Active Directory/Custom Bloodhound Cypher query.md",
     "Active Directory/Kerberoasting Linux Attack Host.md",
     "Active Directory/DCSync Attack.md",
-    "Active Directory/ACL & ACE Enumeration.md",
     "Active Directory/Resources.md",
     "Active Directory/Enumeration.md",
-    "Active Directory/Mimikatz Command.md",
     "Active Directory/Kerberoasting windows attack host.md",
     "Active Directory/Powershell commands.md",
     "Active Directory/Living Off The Land.md",
@@ -202,12 +207,7 @@
     "Users&Passwords/Custom BruteForce Tools.md",
     "Active Directory/Tools.md",
     "Attacking Common Services/Attacking SMB.md",
-    "Users&Passwords/hashcat.md",
-    "Users&Passwords/Linux Cred Hacking.md",
-    "Users&Passwords/Archive Hunting.md",
-    "Active Directory/LLMNR NETBS-NS Poision.md",
     "Reverse Engineering",
-    "Users&Passwords/Hydra.md",
     "Pictures/Pasted image 20241016195900.png",
     "Pictures/Pasted image 20241014160326.png",
     "SQL",
