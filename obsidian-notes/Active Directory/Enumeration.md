@@ -60,6 +60,11 @@ crackmapexec smb 172.16.5.5 --users
 ldapsearch -h 172.16.5.5 -x -b "DC=INLANEFREIGHT,DC=LOCAL" -s sub "(&(objectclass=user))"  | grep sAMAccountName: | cut -f2 -d" "
 ```
 
+Create list of domain users
+```powershell-session
+Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName > ad_users.txt
+```
+
 Credentialed valid user discovery
 ```shell-session
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
@@ -74,6 +79,14 @@ kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt
 grep -oE '[^[:space:]]+@' logfile.txt | cut -d'@' -f1
 ```
 
+Check if user in groups
+```powershell-session
+Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Desktop Users"
+```
+```powershell-session
+Get-NetLocalGroupMember -ComputerName ACADEMY-EA-MS01 -GroupName "Remote Management Users"
+```
+
 Credentialed logged on user discovery
 ```shell-session
 sudo crackmapexec smb 172.16.5.130 -u forend -p Klmcargo2 --loggedon-users
@@ -82,6 +95,11 @@ sudo crackmapexec smb 172.16.5.130 -u forend -p Klmcargo2 --loggedon-users
 Credentialed group discovery
 ```shell-session
 sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
+```
+
+Query group member info
+```powershell-session
+Get-DomainGroup -Identity "Help Desk Level 1" | select memberof
 ```
 
 Admin login via impacket
@@ -131,7 +149,6 @@ sudo crackmapexec smb --local-auth 172.16.5.0/23 -u administrator -H 88ad09182de
 #### Account Attributes
 
 
-
 Get common user attributes
 ```powershell-session
 Get-ADUser -Identity htb-student
@@ -146,6 +163,12 @@ Current User Privileges
 ```powershell-session
 whoami /priv
 ```
+
+Check for reversible password
+```powershell-session
+Get-DomainUser -Identity * | ? {$_.useraccountcontrol -like '*ENCRYPTED_TEXT_PWD_ALLOWED*'} |select samaccountname,useraccountcontrol
+```
+
 
 #### Security Controls ####
 

