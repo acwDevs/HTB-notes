@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Enum/Enumeration.md",
+                "file": "Active Directory/Enumeration/Enumeration.md",
                 "mode": "source",
                 "source": false
               },
@@ -164,12 +164,14 @@
   },
   "active": "73a431f1d2932e34",
   "lastOpenFiles": [
+    "Active Directory/Attacks/Misc/AsRep Roasting.md",
+    "Active Directory/Enumeration/Enumeration.md",
+    "Active Directory/Enumeration/DNS Records.md",
     "Enumerating Common Services/Enumerating DNS.md",
     "Enumerating Common Services/Enumerating SMB.md",
     "Active Directory/Attacks/PTH/PassTheHash Attack Windows.md",
     "Active Directory/Attacks/Misc/DCSync Attack.md",
     "Active Directory/Commands&Queries/Mimikatz Command.md",
-    "Active Directory/Attacks/Misc/AsRep Roasting.md",
     "Users&Passwords/mimikatz.md",
     "Active Directory/Kerberoasting/Kerberoasting windows attack host.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
@@ -188,8 +190,6 @@
     "Metasploit Stuff/Metasploit modules for PrivEsc.md",
     "Metasploit Stuff/Metasploit links.md",
     "Shells/Skills assessment notes.md",
-    "Shells/SMB.md",
-    "Shells/Shells Module.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
