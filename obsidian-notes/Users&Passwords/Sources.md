@@ -20,3 +20,6 @@ online hash cracker
 	https://crackstation.net/
 linux mimikatz
 	https://github.com/CiscoCXSecurity/linikatz
+
+custom rules
+https://academy.hackthebox.com/storage/resources/Password-Attacks.zip

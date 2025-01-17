@@ -1,6 +1,14 @@
 Full Tool List
 	https://academy.hackthebox.com/module/143/section/1517
 
+
+**SID List**  
+[https://adsecurity.org/?p=1001](https://adsecurity.org/?p=1001)  
+List of well known SID List
+
+---
+
+
 **BloodHound**  
 [https://github.com/fox-it/BloodHound.py](https://github.com/fox-it/BloodHound.py)  
 A tool for mapping and analyzing Active Directory attack paths using graph theory.
@@ -70,3 +78,9 @@ A WinRM shell for post-exploitation, enabling command execution, file transfers,
 **Snaffler**  
 [https://github.com/SnaffCon/Snaffler](https://github.com/SnaffCon/Snaffler)  
 A tool to locate sensitive files in Windows environments by analyzing improper file permissions.
+
+---
+
+**SharpGPOAbuse **
+[https://github.com/FSecureLABS/SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse)  
+A tool to take advantage GPO misconfiguration by performing actions such as adding a user that we control to the local admins group on one of the affected hosts, creating an immediate scheduled task on one of the hosts to give us a reverse shell, or configure a malicious computer startup script to provide us with a reverse shell or similar.

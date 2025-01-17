@@ -1,0 +1,10 @@
+{
+  "gladdis:chat-with-gladdis": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ]
+}
