@@ -18,12 +18,12 @@ Get Domain Info
 Get-ADDomain
 ```
 
-Get activate directory users
+Get activate directory users(Powershell)
 ```powershell-session
 Get-ADUser -Filter {ServicePrincipalName -ne "$null"} -Properties ServicePrincipalName
 ```
 
-Check for trust relationships
+Check for trust relationships(Powershell)
 ```powershell-session
 Get-ADTrust -Filter *
 ```
@@ -33,27 +33,27 @@ Test for Local Admin Access
 Test-AdminAccess -ComputerName ACADEMY-EA-MS01
 ```
 
-Find users with SPN set
+Find users with SPN set(Powershell)
 ```powershell-session
 Get-DomainUser -SPN -Properties samaccountname,ServicePrincipalName
 ```
 
-Trust Enumeration
+Trust Enumeration(Powershell)
 ```powershell-session
 Get-DomainTrustMapping
 ```
 
-Group Enum
+Group Enum(Powershell)
 ```powershell-session
 Get-ADGroup -Filter * | select name
 ```
 
-Group Information Query
+Group Information Query(Powershell)
 ```powershell-session
 Get-ADGroup -Identity "Backup Operators"
 ```
 
-Group membership (Recursive)
+Group membership (Recursive)(Powershell)
 ```powershell-session
 Get-ADGroupMember -Identity "Backup Operators"
 ```
@@ -61,7 +61,7 @@ Get-ADGroupMember -Identity "Backup Operators"
 Get-DomainGroupMember -Identity "Domain Admins" -Recurse
 ```
 
-Domain User Info Query
+Domain User Info Query(Powershell)
 ```powershell-session
 Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select-Object -Property name,samaccountname,description,memberof,whencreated,pwdlastset,lastlogontimestamp,accountexpires,admincount,userprincipalname,serviceprincipalname,useraccountcontrol
 ```
