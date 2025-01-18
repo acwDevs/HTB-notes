@@ -24,6 +24,15 @@ nmap -Pn -sV -sC -p1433 10.10.10.125
 - `performance_schema` - is a feature for monitoring MySQL Server execution at a low level
 - `sys` - a set of objects that helps DBAs and developers interpret data collected by the Performance Schema
 
+MSSQL db enumeration
+```
+SELECT name FROM sys.databases ORDER BY name;
+```
+
+MSSQL table enumeration
+```
+SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' ORDER BY TABLE_SCHEMA, TABLE_NAME;
+```
 
 Connecting to mysql
 ```shell-session
@@ -70,8 +79,6 @@ Reading Local Files
 2> GO
 ```
 
-
-
 MSSQL Finding Linked Servers (`1` means is a remote server, and `0` is a linked server)
 ```cmd-session
 1> SELECT srvname, isremote FROM sysservers
@@ -83,4 +90,5 @@ Identifying Users Connecting to Linked Servers
 1> EXECUTE('select @@servername, @@version, system_user, is_srvrolemember(''sysadmin'')') AT [10.0.0.12\SQLEXPRESS]
 2> GO
 ```
+
 

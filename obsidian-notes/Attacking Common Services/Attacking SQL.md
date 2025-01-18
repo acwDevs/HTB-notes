@@ -1,4 +1,6 @@
 
+
+
 MSSQL command execution 
 ```cmd-session
 1> xp_cmdshell 'whoami'

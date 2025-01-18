@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attacking Common Services/Attacking SQL.md",
+                "file": "Enumerating Common Services/Enumerating SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking SQL"
+              "title": "Enumerating SQL"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xp_cmd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,8 +164,8 @@
   },
   "active": "73a431f1d2932e34",
   "lastOpenFiles": [
-    "Active Directory/lateral movement&escalation.md",
     "Attacking Common Services/Attacking SQL.md",
+    "Active Directory/lateral movement&escalation.md",
     "Active Directory/Enumeration/Enumeration.md",
     "Enumerating Common Services/Enumerating SMB.md",
     "Active Directory/Kerberoasting/Kerberoasting windows attack host.md",
