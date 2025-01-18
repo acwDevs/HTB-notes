@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Users&Passwords/mimikatz.md",
+                "file": "Attacking Common Services/Attacking SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mimikatz"
+              "title": "Attacking SQL"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "logo",
+                "query": "xp_cmd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,19 +165,22 @@
   },
   "active": "73a431f1d2932e34",
   "lastOpenFiles": [
+    "Active Directory/lateral movement&escalation.md",
+    "Attacking Common Services/Attacking SQL.md",
+    "Active Directory/Enumeration/Enumeration.md",
+    "Enumerating Common Services/Enumerating SMB.md",
     "Active Directory/Kerberoasting/Kerberoasting windows attack host.md",
+    "Active Directory/Misc Enums and Attacks.md",
     "Active Directory/Kerberoasting/Kerberoasting Linux Attack Host.md",
     "Active Directory/Attacks/Misc/AsRep Roasting.md",
+    "Users&Passwords/mimikatz.md",
     "Active Directory/Commands&Queries/Powershell&Powershell commands.md",
     "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
     "Active Directory/Commands&Queries/Mimikatz Command.md",
-    "Active Directory/Enumeration/Enumeration.md",
     "Active Directory/Enumeration/DNS Records.md",
     "Enumerating Common Services/Enumerating DNS.md",
-    "Enumerating Common Services/Enumerating SMB.md",
     "Active Directory/Attacks/PTH/PassTheHash Attack Windows.md",
     "Active Directory/Attacks/Misc/DCSync Attack.md",
-    "Users&Passwords/mimikatz.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Active Directory/Attacks/Misc/PetitePotam Attack Setup.md",
     "Network Footprinting/Microsoft Remote Management Protocols.md",
@@ -185,12 +188,9 @@
     "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
-    "Active Directory/lateral movement&escalation.md",
     "Active Directory/Attacks/PTT/PassTheTicket Attack Windows.md",
     "Active Directory/Attacks/PTT/PassTheTicket Attack Linux.md",
     "Metasploit Stuff/Windows staged rev shell.md",
-    "Metasploit Stuff/Metasploit modules for PrivEsc.md",
-    "Metasploit Stuff/Metasploit links.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",

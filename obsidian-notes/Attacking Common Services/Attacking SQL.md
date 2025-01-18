@@ -121,4 +121,3 @@ Reading Local File
 select LOAD_FILE("/etc/passwd");
 ```
 
-

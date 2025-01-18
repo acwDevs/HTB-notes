@@ -1,6 +1,5 @@
 
 Finding Accounts with no preauth required via powerview
-
 ```powershell-session
 Get-DomainUser -PreauthNotRequired | select samaccountname,userprincipalname,useraccountcontrol | fl
 ```

