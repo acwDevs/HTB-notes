@@ -12,43 +12,40 @@ Import module
 ```powershell-session
 Import-Module ActiveDirectory
 ```
-
-Get Domain Info
+Check for trust relationships(ActiveDirectory)
+```powershell-session
+Get-ADTrust -Filter *
+```
+Get Domain Info(ActiveDirectory)
 ```powershell-session
 Get-ADDomain
 ```
 
-Get activate directory users(Powershell)
+Get activate directory users(Powerview)
 ```powershell-session
 Get-ADUser -Filter {ServicePrincipalName -ne "$null"} -Properties ServicePrincipalName
 ```
-
-Check for trust relationships(Powershell)
-```powershell-session
-Get-ADTrust -Filter *
-```
-
-Test for Local Admin Access
+Test for Local Admin Access(Powerview)
 ```powershell-session
 Test-AdminAccess -ComputerName ACADEMY-EA-MS01
 ```
 
-Find users with SPN set(Powershell)
+Find users with SPN set(Powerview)
 ```powershell-session
 Get-DomainUser -SPN -Properties samaccountname,ServicePrincipalName
 ```
 
-Trust Enumeration(Powershell)
+Trust Enumeration(Powerview)
 ```powershell-session
 Get-DomainTrustMapping
 ```
 
-Group Enum(Powershell)
+Group Enum(ActiveDirectory)
 ```powershell-session
 Get-ADGroup -Filter * | select name
 ```
 
-Group Information Query(Powershell)
+Group Information Query(ActiveDirectory)
 ```powershell-session
 Get-ADGroup -Identity "Backup Operators"
 ```

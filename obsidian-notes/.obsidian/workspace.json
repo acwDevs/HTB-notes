@@ -11,10 +11,14 @@
             "id": "35404b93b0dace83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Active Directory/Enumeration/ACL & ACE Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ACL & ACE Enumeration"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "downl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,11 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ba5ea5644aa837b",
+  "active": "35404b93b0dace83",
   "lastOpenFiles": [
+    "Active Directory/Commands&Queries/Powershell&Powerview commands.md",
+    "Active Directory/Attacks/Misc/DCSync Attack.md",
+    "Active Directory/Commands&Queries/Mimikatz Command.md",
+    "Active Directory/lateral movement&escalation.md",
+    "Active Directory/Domain Trust.md",
     "Attacking Common Services/Attacking SQL.md",
     "Enumerating Common Services/Enumerating SQL.md",
-    "Active Directory/lateral movement&escalation.md",
     "Active Directory/Enumeration/Enumeration.md",
     "Enumerating Common Services/Enumerating SMB.md",
     "Active Directory/Kerberoasting/Kerberoasting windows attack host.md",
@@ -171,13 +178,10 @@
     "Active Directory/Kerberoasting/Kerberoasting Linux Attack Host.md",
     "Active Directory/Attacks/Misc/AsRep Roasting.md",
     "Users&Passwords/mimikatz.md",
-    "Active Directory/Commands&Queries/Powershell&Powershell commands.md",
     "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
-    "Active Directory/Commands&Queries/Mimikatz Command.md",
     "Active Directory/Enumeration/DNS Records.md",
     "Enumerating Common Services/Enumerating DNS.md",
     "Active Directory/Attacks/PTH/PassTheHash Attack Windows.md",
-    "Active Directory/Attacks/Misc/DCSync Attack.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Active Directory/Attacks/Misc/PetitePotam Attack Setup.md",
     "Network Footprinting/Microsoft Remote Management Protocols.md",
@@ -186,7 +190,6 @@
     "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
     "Active Directory/Attacks/PTT/PassTheTicket Attack Windows.md",
-    "Active Directory/Attacks/PTT/PassTheTicket Attack Linux.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
