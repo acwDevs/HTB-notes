@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Attacks/PTH/PassTheHash Attack Linux.md",
+                "file": "Pivot-Tunnel-Forward/Network Config Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PassTheHash Attack Linux"
+              "title": "Network Config Enumeration"
             }
           }
         ]
@@ -164,7 +164,11 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
+    "Pivot-Tunnel-Forward/MITRE Breakdown.md",
+    "Pivot-Tunnel-Forward/Creating Tunnels.md",
+    "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Active Directory/Commands&Queries/Mimikatz Command.md",
+    "Active Directory/Attacks/PTH/PassTheHash Attack Linux.md",
     "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
     "Active Directory/Attacks/Misc/PrintNightmare Attack Setup.md",
     "Active Directory/Enumeration/ACL & ACE Enumeration.md",
@@ -186,10 +190,6 @@
     "Active Directory/Attacks/PTH/PassTheHash Attack Windows.md",
     "Pivot-Tunnel-Forward/Reverse Port Forwarding.md",
     "Active Directory/Attacks/Misc/PetitePotam Attack Setup.md",
-    "Network Footprinting/Microsoft Remote Management Protocols.md",
-    "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
-    "Pivot-Tunnel-Forward/Creating Tunnels.md",
-    "Pivot-Tunnel-Forward/Port Forwarding.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",

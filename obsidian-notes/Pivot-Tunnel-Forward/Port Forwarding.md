@@ -1,5 +1,5 @@
 
-local port forwarding via ssh
+creating ssh port forward (A way to get a shell into the local domain)
 ```shell-session
 ssh -L 1234:localhost:3306 ubuntu@10.129.202.64
 ```
