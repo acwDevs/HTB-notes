@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d21ff1eb49527e71",
+        "id": "4d077b300eb2cf52",
         "type": "tabs",
         "children": [
           {
-            "id": "73a431f1d2932e34",
+            "id": "35404b93b0dace83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enumerating Common Services/Enumerating SQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Enumerating SQL"
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "downl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +69,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,9 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73a431f1d2932e34",
+  "active": "6ba5ea5644aa837b",
   "lastOpenFiles": [
     "Attacking Common Services/Attacking SQL.md",
+    "Enumerating Common Services/Enumerating SQL.md",
     "Active Directory/lateral movement&escalation.md",
     "Active Directory/Enumeration/Enumeration.md",
     "Enumerating Common Services/Enumerating SMB.md",
@@ -189,7 +187,6 @@
     "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
     "Active Directory/Attacks/PTT/PassTheTicket Attack Windows.md",
     "Active Directory/Attacks/PTT/PassTheTicket Attack Linux.md",
-    "Metasploit Stuff/Windows staged rev shell.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
