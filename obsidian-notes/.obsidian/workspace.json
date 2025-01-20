@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Directory/Enumeration/ACL & ACE Enumeration.md",
+                "file": "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACL & ACE Enumeration"
+              "title": "LLMNR NETBS-NS Poison"
             }
           }
         ]
@@ -164,6 +164,8 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
+    "Active Directory/Attacks/Misc/PrintNightmare Attack Setup.md",
+    "Active Directory/Enumeration/ACL & ACE Enumeration.md",
     "Active Directory/Commands&Queries/Powershell&Powerview commands.md",
     "Active Directory/Attacks/Misc/DCSync Attack.md",
     "Active Directory/Commands&Queries/Mimikatz Command.md",
@@ -188,8 +190,6 @@
     "Pivot-Tunnel-Forward/SSH Pivoting Methods.md",
     "Pivot-Tunnel-Forward/Creating Tunnels.md",
     "Pivot-Tunnel-Forward/Port Forwarding.md",
-    "Pivot-Tunnel-Forward/Routing kerberos traffic.md",
-    "Active Directory/Attacks/PTT/PassTheTicket Attack Windows.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
