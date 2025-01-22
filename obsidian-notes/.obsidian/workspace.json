@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "runas",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35404b93b0dace83",
+  "active": "86c45c49dc8c99e9",
   "lastOpenFiles": [
     "Active Directory/Attacks/Misc/DCSync Attack.md",
     "Active Directory/Attacks/Misc/ACL Attacks.md",
