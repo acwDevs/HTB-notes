@@ -4,13 +4,13 @@ mysql -u root -h docker.hackthebox.eu -P 3306 -p
 ```
 
 Create DB
-```shell-session
-mysql> CREATE DATABASE users;
+```SQL
+CREATE DATABASE users;
 ```
 
 Show DB's
-```shell-session
-mysql> SHOW DATABASES;
+```SQL
+SHOW DATABASES;
 ```
 
 Insert
@@ -24,12 +24,12 @@ SELECT * FROM table_name;
 ```
 
 Drop
-```shell-session
+```SQL
 DROP TABLE logins;
 ```
 
 Alter
-```shell-session
+```SQL
 ALTER TABLE logins ADD newColumn INT;
 ```
 
