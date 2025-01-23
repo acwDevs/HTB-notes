@@ -38,6 +38,11 @@ Enable writing to files with MSSQL (Requires Admin)
 7> RECONFIGURE
 8> GO
 ```
+or 
+```
+enable_xp_cmdshell
+```
+
 
 Creating Files
 ```cmd-session

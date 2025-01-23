@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Injection Test.md",
+                "file": "SQL/SQLMAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Injection Test"
+              "title": "SQLMAP"
             }
           }
         ]
@@ -164,11 +164,17 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
-    "SQL/Payloads.md",
-    "SQL/Essential Knowledge.md",
-    "SQL/MySQL Basics.md",
-    "SQL/Injection Test.md",
+    "SQL/Enumeration.md",
+    "SQL/Attacking SQL.md",
     "SQL/SQLMAP.md",
+    "SQL/Payloads.md",
+    "SQL/Hardening SQl.md",
+    "SQL/MySQL Basics.md",
+    "SQL/SQLMAP - Copy.md",
+    "SQL/Injection Test.md",
+    "SQL/Essential Knowledge.md",
+    "SQL/Windows Accessing SQL.md",
+    "SQL/Linux Accessing SQL.md",
     "Active Directory/Attacks/Misc/ACL Attacks.md",
     "Active Directory/Attacks/Misc/DCSync Attack.md",
     "Active Directory/Enumeration/ACL & ACE Enumeration.md",
@@ -184,12 +190,6 @@
     "Active Directory/Attacks/PTH/PassTheHash Attack Linux.md",
     "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
     "Active Directory/Attacks/Misc/PrintNightmare Attack Setup.md",
-    "Active Directory/lateral movement&escalation.md",
-    "Active Directory/Domain Trust.md",
-    "Attacking Common Services/Attacking SQL.md",
-    "Enumerating Common Services/Enumerating SQL.md",
-    "Active Directory/Enumeration/Enumeration.md",
-    "Enumerating Common Services/Enumerating SMB.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
