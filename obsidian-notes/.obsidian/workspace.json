@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLMAP.md",
+                "file": "SQL/SQLMAP/SQLMAP Database Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQLMAP"
+              "title": "SQLMAP Database Enumeration"
             }
           }
         ]
@@ -164,9 +164,11 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
+    "SQL/SQLMAP/SQLMAP Basics.md",
+    "SQL/SQLMAP/SQLMAP Database Enumeration.md",
+    "SQL/SQLMAP",
     "SQL/Enumeration.md",
     "SQL/Attacking SQL.md",
-    "SQL/SQLMAP.md",
     "SQL/Payloads.md",
     "SQL/Hardening SQl.md",
     "SQL/MySQL Basics.md",
@@ -189,7 +191,6 @@
     "Pivot-Tunnel-Forward/MITRE Breakdown.md",
     "Active Directory/Attacks/PTH/PassTheHash Attack Linux.md",
     "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
-    "Active Directory/Attacks/Misc/PrintNightmare Attack Setup.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
@@ -200,7 +201,6 @@
     "Gladdis/history/chats/2025/01",
     "Gladdis/history/calls/2025/01",
     "Gladdis/history/chats/2025",
-    "Gladdis/history/calls/2025",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
     "Pictures/Pasted image 20241016195900.png",
