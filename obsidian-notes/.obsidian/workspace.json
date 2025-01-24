@@ -164,9 +164,9 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
-    "SQL/SQLMAP/Bypassing protections.md",
-    "SQL/SQLMAP/OS Exploitation.md",
     "SQL/SQLMAP/SQLMAP Basics.md",
+    "SQL/SQLMAP/OS Exploitation.md",
+    "SQL/SQLMAP/Bypassing protections.md",
     "SQL/SQLMAP/SQLMAP Database Enumeration.md",
     "SQL/SQLMAP",
     "SQL/Enumeration.md",
