@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLMAP/SQLMAP Database Enumeration.md",
+                "file": "SQL/SQLMAP/Bypassing protections.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQLMAP Database Enumeration"
+              "title": "Bypassing protections"
             }
           }
         ]
@@ -164,8 +164,9 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
-    "SQL/SQLMAP/SQLMAP Basics.md",
     "SQL/SQLMAP/SQLMAP Database Enumeration.md",
+    "SQL/SQLMAP/Bypassing protections.md",
+    "SQL/SQLMAP/SQLMAP Basics.md",
     "SQL/SQLMAP",
     "SQL/Enumeration.md",
     "SQL/Attacking SQL.md",
@@ -190,7 +191,6 @@
     "Pivot-Tunnel-Forward/Network Config Enumeration.md",
     "Pivot-Tunnel-Forward/MITRE Breakdown.md",
     "Active Directory/Attacks/PTH/PassTheHash Attack Linux.md",
-    "Active Directory/Attacks/Misc/LLMNR NETBS-NS Poison.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",

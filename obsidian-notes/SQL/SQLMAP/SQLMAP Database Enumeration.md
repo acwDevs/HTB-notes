@@ -73,4 +73,8 @@ Search for database tables,columns with like operator
 --search -C xyz
 ```
 
+Dump system tables for credentials
+```
+--passwords
+```
 
