@@ -11,3 +11,5 @@ Get cookie
 ```html
 <script>alert(document.cookie)</script>
 ```
+
+
