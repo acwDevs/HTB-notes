@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Basics.md",
+                "file": "Web Attack and Enumeration/XSS/Testing Payloads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQLMAP Basics"
+              "title": "Testing Payloads"
             }
           }
         ]
@@ -162,12 +162,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86c45c49dc8c99e9",
+  "active": "35404b93b0dace83",
   "lastOpenFiles": [
+    "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Basics.md",
+    "Web Attack and Enumeration/XSS/Testing Payloads.md",
+    "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
     "Web Attack and Enumeration/SQLi/SQLMAP/Bypassing protections.md",
     "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Database Enumeration.md",
-    "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Basics.md",
     "Web Attack and Enumeration/SQLi/SQLMAP/OS Exploitation.md",
     "Web Attack and Enumeration/SQLi/SQLMAP",
     "Web Attack and Enumeration/SQLi/Enumeration.md",
@@ -199,8 +201,6 @@
     "Gladdis/history/chats/2025/01/14",
     "Gladdis/history/calls/2025/01/14",
     "Gladdis/history/chats/2025/01",
-    "Gladdis/history/calls/2025/01",
-    "Gladdis/history/chats/2025",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
     "Pictures/Pasted image 20241016195900.png",
