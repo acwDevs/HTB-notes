@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLMAP/OS Exploitation.md",
+                "file": "SQL/SQLMAP/SQLMAP Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS Exploitation"
+              "title": "SQLMAP Basics"
             }
           }
         ]
@@ -164,9 +164,9 @@
   },
   "active": "35404b93b0dace83",
   "lastOpenFiles": [
-    "SQL/SQLMAP/SQLMAP Basics.md",
     "SQL/SQLMAP/OS Exploitation.md",
     "SQL/SQLMAP/Bypassing protections.md",
+    "SQL/SQLMAP/SQLMAP Basics.md",
     "SQL/SQLMAP/SQLMAP Database Enumeration.md",
     "SQL/SQLMAP",
     "SQL/Enumeration.md",
