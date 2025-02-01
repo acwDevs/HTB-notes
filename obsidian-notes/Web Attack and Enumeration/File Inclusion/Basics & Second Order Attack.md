@@ -1,5 +1,4 @@
 
-
 Passing file names into get parameters
 ```
 http://<SERVER_IP>:<PORT>/index.php?language=/PATH/FILE

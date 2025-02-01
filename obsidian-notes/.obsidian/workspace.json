@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Basic Bypass.md",
+                "file": "Web Attack and Enumeration/File Inclusion/PHP Filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Bypass"
+              "title": "PHP Filters"
             }
           }
         ]
@@ -164,8 +164,9 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/File Inclusion/Basics & Second Order Attack.md",
     "Web Attack and Enumeration/File Inclusion/Basic Bypass.md",
+    "Web Attack and Enumeration/File Inclusion/PHP Filters.md",
+    "Web Attack and Enumeration/File Inclusion/Basics & Second Order Attack.md",
     "Web Attack and Enumeration/File Inclusion/Function Actions.md",
     "Web Attack and Enumeration/File Inclusion",
     "Web Attack and Enumeration/SQLi/Payloads.md",
@@ -193,7 +194,6 @@
     "Web Attack and Enumeration/SQLi/Attacking SQL.md",
     "Web Attack and Enumeration/SQLi/Hardening SQl.md",
     "Web Attack and Enumeration/SQLi/MySQL Basics.md",
-    "SQL/SQLMAP - Copy.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
