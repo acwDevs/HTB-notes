@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Function Actions.md",
+                "file": "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function Actions"
+              "title": "PHP Wrappers"
             }
           }
         ]
@@ -164,27 +164,27 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
     "Web Attack and Enumeration/File Inclusion/PHP Filters.md",
+    "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
+    "Web Attack and Enumeration/SQLi/Payloads.md",
+    "Web Attack and Enumeration/XSS/Prevention.md",
+    "Web Attack and Enumeration/XSS/Reflected&(Non)Persistent Test.md",
+    "Web Attack and Enumeration/XSS/Session Hijacking.md",
+    "Web Attack and Enumeration/XSS/XSS Strike Commands.md",
+    "Web Attack and Enumeration/XSS/Blind Attacks.md",
     "Web Attack and Enumeration/File Inclusion/Function Actions.md",
     "Web Attack and Enumeration/File Inclusion/Basic Bypass.md",
     "Web Attack and Enumeration/File Inclusion/Basics & Second Order Attack.md",
     "Web Attack and Enumeration/File Inclusion",
-    "Web Attack and Enumeration/SQLi/Payloads.md",
     "Web Attack and Enumeration/SQLi/SQLMAP/OS Exploitation.md",
-    "Web Attack and Enumeration/XSS/Blind Attacks.md",
-    "Web Attack and Enumeration/XSS/Prevention.md",
     "Web Attack and Enumeration/XSS/PHP Listener.md",
     "Web Attack and Enumeration/XSS/Discovery Tools.md",
     "Web Attack and Enumeration/XSS/Defacing Sites.md",
-    "Web Attack and Enumeration/XSS/Session Hijacking.md",
     "Pivot-Tunnel-Forward/Socat Redirection.md",
     "Metasploit Stuff/Windows staged rev shell.md",
     "Web Attack and Enumeration/XSS/Phishing Attacks.md",
-    "Web Attack and Enumeration/XSS/XSS Strike Commands.md",
     "Gladdis/history/calls/2025/01/14/1736880836191.md",
     "Web Attack and Enumeration/XSS/DOM Test.md",
-    "Web Attack and Enumeration/XSS/Reflected&(Non)Persistent Test.md",
     "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Basics.md",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
