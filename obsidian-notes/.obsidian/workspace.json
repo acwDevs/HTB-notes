@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
+                "file": "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Remote Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PHP Wrappers"
+              "title": "Remote Shell"
             }
           }
         ]
@@ -164,17 +164,21 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/File Inclusion/PHP Filters.md",
+    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Basics.md",
+    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Remote Shell.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basic Bypass.md",
     "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
+    "Web Attack and Enumeration/File Inclusion/Function Actions.md",
+    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basics & Second Order Attack.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
     "Web Attack and Enumeration/SQLi/Payloads.md",
     "Web Attack and Enumeration/XSS/Prevention.md",
     "Web Attack and Enumeration/XSS/Reflected&(Non)Persistent Test.md",
     "Web Attack and Enumeration/XSS/Session Hijacking.md",
     "Web Attack and Enumeration/XSS/XSS Strike Commands.md",
     "Web Attack and Enumeration/XSS/Blind Attacks.md",
-    "Web Attack and Enumeration/File Inclusion/Function Actions.md",
-    "Web Attack and Enumeration/File Inclusion/Basic Bypass.md",
-    "Web Attack and Enumeration/File Inclusion/Basics & Second Order Attack.md",
     "Web Attack and Enumeration/File Inclusion",
     "Web Attack and Enumeration/SQLi/SQLMAP/OS Exploitation.md",
     "Web Attack and Enumeration/XSS/PHP Listener.md",
@@ -192,15 +196,11 @@
     "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Database Enumeration.md",
     "Web Attack and Enumeration/SQLi/SQLMAP",
     "Web Attack and Enumeration/SQLi/Enumeration.md",
-    "Web Attack and Enumeration/SQLi/Attacking SQL.md",
-    "Web Attack and Enumeration/SQLi/Hardening SQl.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
     "Active Directory/Attacks/PTH",
     "Pictures/trusts-diagram.webp",
-    "Gladdis/history/chats/2025/01/14",
-    "Gladdis/history/calls/2025/01/14",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
     "Pictures/Pasted image 20241016195900.png",

