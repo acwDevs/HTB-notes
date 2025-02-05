@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Local File Inclusion/File Upload.md",
+                "file": "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Upload"
+              "title": "Server Log Poisoning"
             }
           }
         ]
@@ -165,14 +165,17 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Remote Shell.md",
+    "Web Attack and Enumeration/File Inclusion/Log Poisoning/PHP Session Poisoning.md",
+    "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
+    "Web Attack and Enumeration/File Inclusion/Log Poisoning",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Basics.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/File Upload.md",
+    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Remote Shell.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basic Bypass.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basics & Second Order Attack.md",
     "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
     "Web Attack and Enumeration/File Inclusion/Function Actions.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
     "Web Attack and Enumeration/SQLi/Payloads.md",
@@ -194,13 +197,10 @@
     "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Basics.md",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
-    "Web Attack and Enumeration/SQLi/SQLMAP/Bypassing protections.md",
-    "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Database Enumeration.md",
     "Web Attack and Enumeration/SQLi/SQLMAP",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",
-    "Active Directory/Attacks/PTH",
     "Pictures/trusts-diagram.webp",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",

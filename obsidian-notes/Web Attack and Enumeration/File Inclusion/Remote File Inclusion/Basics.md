@@ -1,4 +1,5 @@
 
+You need to be able to upload a php file into a field we control and then use execute permissions to execute on that file.
 
 allow_url_include is needed for various LFI attacks and all RFI attacks
 
