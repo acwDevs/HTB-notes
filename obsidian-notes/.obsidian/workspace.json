@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Basics.md",
+                "file": "Web Attack and Enumeration/File Inclusion/Local File Inclusion/File Upload.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basics"
+              "title": "File Upload"
             }
           }
         ]
@@ -167,12 +167,13 @@
   "lastOpenFiles": [
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Remote Shell.md",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Basics.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/File Upload.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basic Bypass.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basics & Second Order Attack.md",
     "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
     "Web Attack and Enumeration/File Inclusion/Function Actions.md",
-    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basics & Second Order Attack.md",
+    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
     "Web Attack and Enumeration/SQLi/Payloads.md",
     "Web Attack and Enumeration/XSS/Prevention.md",
@@ -196,7 +197,6 @@
     "Web Attack and Enumeration/SQLi/SQLMAP/Bypassing protections.md",
     "Web Attack and Enumeration/SQLi/SQLMAP/SQLMAP Database Enumeration.md",
     "Web Attack and Enumeration/SQLi/SQLMAP",
-    "Web Attack and Enumeration/SQLi/Enumeration.md",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
     "Active Directory/Attacks/PTT",

