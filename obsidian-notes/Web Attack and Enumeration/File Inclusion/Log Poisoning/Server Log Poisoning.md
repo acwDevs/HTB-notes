@@ -33,6 +33,7 @@ Execute on user-agent web shell
 ```shell
 curl -s "http://<SERVER_IP>:<PORT>/index.php?language=/var/log/apache2/access.log&cmd=id"
 ```
+
 **Tip:** The `User-Agent` header is also shown on process files under the Linux `/proc/` directory. So, we can try including the `/proc/self/environ` or `/proc/self/fd/N` files (where N is a PID usually between 0-50), and we may be able to perform the same attack on these files. This may become handy in case we did not have read access over the server logs, however, these files may only be readable by privileged users as well.
 
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Automation.md",
+                "file": "Web Attack and Enumeration/File Inclusion/Prevention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automation"
+              "title": "Prevention"
             }
           }
         ]
@@ -166,6 +166,7 @@
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
     "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
+    "Web Attack and Enumeration/File Inclusion/Prevention.md",
     "Web Attack and Enumeration/File Inclusion/Automation.md",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning/PHP Session Poisoning.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
@@ -194,7 +195,6 @@
     "Metasploit Stuff/Windows staged rev shell.md",
     "Web Attack and Enumeration/XSS/Phishing Attacks.md",
     "Gladdis/history/calls/2025/01/14/1736880836191.md",
-    "Web Attack and Enumeration/XSS/DOM Test.md",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
     "Web Attack and Enumeration/SQLi/SQLMAP",
