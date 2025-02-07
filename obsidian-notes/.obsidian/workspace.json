@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Prevention.md",
+                "file": "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prevention"
+              "title": "PHP Filters"
             }
           }
         ]
@@ -165,19 +165,19 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
-    "Web Attack and Enumeration/File Inclusion/Prevention.md",
-    "Web Attack and Enumeration/File Inclusion/Automation.md",
-    "Web Attack and Enumeration/File Inclusion/Log Poisoning/PHP Session Poisoning.md",
+    "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basic Bypass.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basics & Second Order Attack.md",
+    "Web Attack and Enumeration/File Inclusion/Prevention.md",
+    "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
+    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/File Upload.md",
+    "Web Attack and Enumeration/File Inclusion/Function Actions.md",
+    "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
+    "Web Attack and Enumeration/File Inclusion/Log Poisoning/PHP Session Poisoning.md",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Basics.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/File Upload.md",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion/Remote Shell.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basic Bypass.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basics & Second Order Attack.md",
-    "Web Attack and Enumeration/File Inclusion/PHP Wrappers.md",
-    "Web Attack and Enumeration/File Inclusion/Function Actions.md",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
     "Web Attack and Enumeration/SQLi/Payloads.md",

