@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
+                "file": "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automation & Fuzzing"
+              "title": "Bypass Client Validation"
             }
           }
         ]
@@ -163,8 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86c45c49dc8c99e9",
+  "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Pasted image 20250210222316.png",
+    "Web Attack and Enumeration/File Upload/Basic Exploitation.md",
+    "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
+    "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
     "Web Attack and Enumeration/XSS/Session Hijacking.md",
     "Web Attack and Enumeration/File Upload",
     "Web Attack and Enumeration/XSS/DOM Test.md",
@@ -177,7 +181,6 @@
     "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning/PHP Session Poisoning.md",
     "Web Attack and Enumeration/File Inclusion/Function Actions.md",
-    "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Wrappers.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion/Basic Bypass.md",
@@ -193,8 +196,6 @@
     "Web Attack and Enumeration/XSS/Prevention.md",
     "Web Attack and Enumeration/File Inclusion",
     "Web Attack and Enumeration/SQLi/SQLMAP/OS Exploitation.md",
-    "Web Attack and Enumeration/XSS/PHP Listener.md",
-    "Pivot-Tunnel-Forward/Socat Redirection.md",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
     "Web Attack and Enumeration/SQLi/SQLMAP",
