@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/XSS/Session Hijacking.md",
+                "file": "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session Hijacking"
+              "title": "Automation & Fuzzing"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 237.5
   },
   "right": {
     "id": "ce5ae2a926897a1c",
@@ -163,10 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f1b6eacc434ac48",
+  "active": "86c45c49dc8c99e9",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/XSS/DOM Test.md",
     "Web Attack and Enumeration/XSS/Session Hijacking.md",
+    "Web Attack and Enumeration/File Upload",
+    "Web Attack and Enumeration/XSS/DOM Test.md",
     "Web Attack and Enumeration/XSS/Reflected&(Non)Persistent Test.md",
     "Web Attack and Enumeration/XSS/Blind Attacks.md",
     "Web Attack and Enumeration/XSS/Discovery Tools.md",
@@ -194,13 +195,11 @@
     "Web Attack and Enumeration/SQLi/SQLMAP/OS Exploitation.md",
     "Web Attack and Enumeration/XSS/PHP Listener.md",
     "Pivot-Tunnel-Forward/Socat Redirection.md",
-    "Metasploit Stuff/Windows staged rev shell.md",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
     "Web Attack and Enumeration/SQLi/SQLMAP",
     "Active Directory/Attacks/Misc",
     "Active Directory/Attacks/ExtraSID",
-    "Active Directory/Attacks/PTT",
     "Pictures/trusts-diagram.webp",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
