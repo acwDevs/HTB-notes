@@ -33,7 +33,7 @@ Character Injection List (e.g. shell.php%00.jpg)
 - `…`
 - `:`
 
-Injection permutation script
+Injection permutation script example
 ```bash
 for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do
     for ext in '.php' '.phps'; do
