@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
+                "file": "Web Attack and Enumeration/File Upload/Blacklist Filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bypass Client Validation"
+              "title": "Blacklist Filters"
             }
           }
         ]
@@ -163,11 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86c45c49dc8c99e9",
+  "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
+    "Web Attack and Enumeration/File Upload/Blacklist Filters.md",
     "Pictures/Pasted image 20250210222316.png",
     "Web Attack and Enumeration/File Upload/Basic Exploitation.md",
-    "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
     "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
     "Web Attack and Enumeration/XSS/Session Hijacking.md",
     "Web Attack and Enumeration/File Upload",
