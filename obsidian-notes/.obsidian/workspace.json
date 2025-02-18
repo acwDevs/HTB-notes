@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Upload/Blacklist & Whitelist Filters.md",
+                "file": "Web Attack and Enumeration/File Upload/Special File Uploads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blacklist & Whitelist Filters"
+              "title": "Special File Uploads"
             }
           }
         ]
@@ -165,8 +165,11 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Web Attack and Enumeration/File Upload/Black&White List Filters.md",
+    "Web Attack and Enumeration/File Upload/Special File Uploads.md",
+    "Web Attack and Enumeration/File Upload/Type Filters.md",
+    "Pasted image 20250217204503.png",
     "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
-    "Web Attack and Enumeration/File Upload/Blacklist & Whitelist Filters.md",
     "Pictures/Pasted image 20250210222316.png",
     "Web Attack and Enumeration/File Upload/Basic Exploitation.md",
     "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
@@ -194,9 +197,7 @@
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
     "Web Attack and Enumeration/SQLi/Payloads.md",
-    "Web Attack and Enumeration/XSS/Prevention.md",
     "Web Attack and Enumeration/File Inclusion",
-    "Web Attack and Enumeration/SQLi/SQLMAP/OS Exploitation.md",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
     "Web Attack and Enumeration/SQLi/SQLMAP",
