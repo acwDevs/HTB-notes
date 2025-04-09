@@ -1,7 +1,6 @@
 
 Pulling information from website content
 
-
 | Tools       | Source                                                                     |
 | ----------- | -------------------------------------------------------------------------- |
 | burp suite  | kali                                                                       |
