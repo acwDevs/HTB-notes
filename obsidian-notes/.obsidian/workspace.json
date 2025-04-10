@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/File Upload/Black&White List Filters.md",
+                "file": "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Black&White List Filters"
+              "title": "Detection and Methods"
             }
           }
         ]
@@ -165,6 +165,10 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Web Attack and Enumeration/Common Injection List.md",
+    "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
+    "Web Attack and Enumeration/File Upload/Black&White List Filters.md",
+    "Web Attack and Enumeration/Command Injection",
     "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
     "Web Attack and Enumeration/File Upload/Type Filters.md",
     "Web Attack and Enumeration/File Upload/Special File Uploads.md",
@@ -176,7 +180,6 @@
     "Web Attack and Enumeration/Web Footprinting/Finding vhost and subdomains.md",
     "Web Attack and Enumeration/Web Footprinting/Fingerprinting.md",
     "Web Attack and Enumeration/Web Footprinting/Spidering.md",
-    "Web Attack and Enumeration/File Upload/Black&White List Filters.md",
     "Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png",
     "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
@@ -192,8 +195,6 @@
     "Web Attack and Enumeration/File Inclusion/Log Poisoning/Server Log Poisoning.md",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning/PHP Session Poisoning.md",
     "Web Attack and Enumeration/File Inclusion/Function Actions.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Wrappers.md",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion/PHP Filters.md",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
@@ -202,7 +203,6 @@
     "Web Attack and Enumeration",
     "Web Attack and Enumeration/SQLi/SQLMAP",
     "Active Directory/Attacks/Misc",
-    "Active Directory/Attacks/ExtraSID",
     "Pictures/trusts-diagram.webp",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
