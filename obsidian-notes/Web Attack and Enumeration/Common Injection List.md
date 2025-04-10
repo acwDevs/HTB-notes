@@ -9,3 +9,6 @@ XPath Injection
 IMAP Injection
 ORM Injection
 
+
+Common Injection Strings
+![[Pasted image 20250410124056.png]]
