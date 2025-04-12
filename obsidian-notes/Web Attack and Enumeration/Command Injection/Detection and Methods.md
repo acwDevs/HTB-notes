@@ -13,4 +13,5 @@ To inject an additional command to the intended one, we may use any of the follo
 | OR                     | " \|\| "                | `%7c%7c`                  | Second (only if first fails)               |
 | Sub-Shell              | ` `` `                  | `%60%60`                  | Both (Linux-only)                          |
 | Sub-Shell              | `$()`                   | `%24%28%29`               | Both (Linux-only)                          |
+| Reverse Pipe           | <<<                     | `%3c%3c%3c`               | Linux                                      |
 
