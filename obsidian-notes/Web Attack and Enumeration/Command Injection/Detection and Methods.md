@@ -1,4 +1,4 @@
-
+&
 ## Command Injection Methods
 
 To inject an additional command to the intended one, we may use any of the following operators:
@@ -8,7 +8,7 @@ To inject an additional command to the intended one, we may use any of the follo
 | Semicolon              | `;`                     | `%3b`                     | Both(Windows powershell & Unix)            |
 | New Line               | `\n`                    | `%0a`                     | Both                                       |
 | Background             | `&`                     | `%26`                     | Both (second output generally shown first) |
-| Pipe                   | " \| "                  | ``                        | Both (only second output is shown)         |
+| Pipe                   | " \| "                  | `%0a`                     | Both (only second output is shown)         |
 | AND                    | `&&`                    | `%26%26`                  | Both (only if first succeeds)              |
 | OR                     | " \|\| "                | `%7c%7c`                  | Second (only if first fails)               |
 | Sub-Shell              | ` `` `                  | `%60%60`                  | Both (Linux-only)                          |
