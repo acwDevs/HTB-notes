@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/IDOR/Extracting Objects.md",
+                "file": "Web Attack and Enumeration/IDOR/LOOK AT ME.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extracting Objects"
+              "title": "LOOK AT ME"
             }
           }
         ]
@@ -165,18 +165,19 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/Verb Tampering/Prevention.md",
     "Web Attack and Enumeration/IDOR/Extracting Objects.md",
+    "Web Attack and Enumeration/IDOR/LOOK AT ME.md",
+    "Web Attack and Enumeration/Command Injection/Character Filters.md",
+    "Web Attack and Enumeration/Command Injection/Evasion Tools.md",
+    "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
+    "Web Attack and Enumeration/Command Injection/Command Filters.md",
+    "Web Attack and Enumeration/Verb Tampering/Prevention.md",
     "Web Attack and Enumeration/IDOR",
     "Web Attack and Enumeration/IDOR.md",
     "Web Attack and Enumeration/Verb Tampering/Bypassing Auth & Filters.md",
     "Web Attack and Enumeration/Verb Tampering/Verb List.md",
-    "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
     "Web Attack and Enumeration/Verb Tampering",
-    "Web Attack and Enumeration/Command Injection/Command Filters.md",
-    "Web Attack and Enumeration/Command Injection/Character Filters.md",
     "Web Attack and Enumeration/Command Injection/Prevention.md",
-    "Web Attack and Enumeration/Command Injection/Evasion Tools.md",
     "Web Attack and Enumeration/Common Injection List.md",
     "Pasted image 20250410124056.png",
     "Web Attack and Enumeration/File Upload/Black&White List Filters.md",
@@ -197,7 +198,6 @@
     "Web Attack and Enumeration/File Inclusion/Automation & Fuzzing.md",
     "Web Attack and Enumeration/XSS/Session Hijacking.md",
     "Web Attack and Enumeration/File Upload",
-    "Web Attack and Enumeration/XSS/DOM Test.md",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
