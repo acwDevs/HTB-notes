@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Verb Tampering/Prevention.md",
+                "file": "Web Attack and Enumeration/IDOR/Extracting Objects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prevention"
+              "title": "Extracting Objects"
             }
           }
         ]
@@ -163,11 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86c45c49dc8c99e9",
+  "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Web Attack and Enumeration/Verb Tampering/Prevention.md",
+    "Web Attack and Enumeration/IDOR/Extracting Objects.md",
     "Web Attack and Enumeration/IDOR",
     "Web Attack and Enumeration/IDOR.md",
-    "Web Attack and Enumeration/Verb Tampering/Prevention.md",
     "Web Attack and Enumeration/Verb Tampering/Bypassing Auth & Filters.md",
     "Web Attack and Enumeration/Verb Tampering/Verb List.md",
     "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
@@ -203,7 +204,6 @@
     "Web Attack and Enumeration/File Inclusion",
     "Web Attack and Enumeration/XSS",
     "Web Attack and Enumeration",
-    "Web Attack and Enumeration/SQLi/SQLMAP",
     "Pictures/trusts-diagram.webp",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
