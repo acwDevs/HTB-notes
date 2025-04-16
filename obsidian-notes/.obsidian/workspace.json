@@ -165,8 +165,9 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/XXE/Basics.md",
+    "Web Attack and Enumeration/XXE/Remote Code Execution.md",
     "Web Attack and Enumeration/XXE/Local File Disclosure.md",
+    "Web Attack and Enumeration/XXE/Basics.md",
     "Web Attack and Enumeration/IDOR/LOOK AT ME.md",
     "Web Attack and Enumeration/XXE",
     "Web Attack and Enumeration/IDOR/Extracting Objects.md",
@@ -195,7 +196,6 @@
     "Web Attack and Enumeration/File Upload/Basic Exploitation.md",
     "Web Attack and Enumeration/Web Footprinting/Finding vhost and subdomains.md",
     "Web Attack and Enumeration/Web Footprinting/Fingerprinting.md",
-    "Web Attack and Enumeration/Web Footprinting/Spidering.md",
     "Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png",
     "Web Attack and Enumeration/File Upload",
