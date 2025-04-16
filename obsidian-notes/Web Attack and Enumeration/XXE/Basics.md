@@ -6,6 +6,7 @@
 
 It behaves much like HTML uses a XML parser in order to load local resources or external resources 
 
+We use DTD's to request resources
 
 SYSTEM for local resources
 PUBLIC for external resources
