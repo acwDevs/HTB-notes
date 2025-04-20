@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Common Applications/Discovery and Enumeration.md",
+                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/Attacking WordPress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discovery and Enumeration"
+              "title": "Attacking WordPress"
             }
           }
         ]
@@ -165,9 +165,12 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress Enum.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Attacking WordPress.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys",
+    "Web Attack and Enumeration/Common Applications/Discovery and Enumeration.md",
     "Web Attack and Enumeration/Common Applications/Vhost add command.md",
     "Web Attack and Enumeration/Common Applications/Common Apps List.md",
-    "Web Attack and Enumeration/Common Applications/Discovery and Enumeration.md",
     "Web Attack and Enumeration/Common Applications/Report Skeleton.md",
     "Web Attack and Enumeration/Common Applications",
     "Web Attack and Enumeration/Untitled.md",
@@ -195,15 +198,12 @@
     "Web Attack and Enumeration/Command Injection",
     "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
     "Web Attack and Enumeration/File Upload/Type Filters.md",
-    "Web Attack and Enumeration/File Upload/Special File Uploads.md",
-    "Web Attack and Enumeration/File Upload/Info and Path Disclosure.md",
     "Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png",
     "Web Attack and Enumeration/File Upload",
     "Web Attack and Enumeration/File Inclusion/Log Poisoning",
     "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
     "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
-    "Web Attack and Enumeration/File Inclusion",
     "Pictures/trusts-diagram.webp",
     "Active Directory/pentest_ad_dark_2022_11.svg",
     "Pictures/Pasted image 20240924215757.png",
