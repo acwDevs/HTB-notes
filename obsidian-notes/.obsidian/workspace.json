@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/Attacking WordPress.md",
+                "file": "Reports/Joomla Joomla Intro Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking WordPress"
+              "title": "Joomla Joomla Intro Report"
+            }
+          },
+          {
+            "id": "c3f5fe598e566b3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "General Overview of Enumeration"
             }
           }
         ]
@@ -165,13 +179,26 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress Enum.md",
-    "Web Attack and Enumeration/Common Applications/Content Management Sys/Attacking WordPress.md",
+    "Pasted image 20250421001106.png",
+    "Pasted image 20250421001043.png",
+    "Pasted image 20250421000836.png",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Attacking Joomla.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Enumerating Joomla.md",
+    "Reports/Joomla Joomla Intro Report.md",
+    "Pasted image 20250420223836.png",
+    "Pictures/Pasted image 20250420223601.png",
+    "Pictures/Pasted image 20250420223502.png",
+    "Web Attack and Enumeration/Common Applications/Report Skeleton.md",
+    "Reports",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress/Attacking WordPress.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress/Enumerating WordPress.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress",
     "Web Attack and Enumeration/Common Applications/Content Management Sys",
     "Web Attack and Enumeration/Common Applications/Discovery and Enumeration.md",
     "Web Attack and Enumeration/Common Applications/Vhost add command.md",
     "Web Attack and Enumeration/Common Applications/Common Apps List.md",
-    "Web Attack and Enumeration/Common Applications/Report Skeleton.md",
     "Web Attack and Enumeration/Common Applications",
     "Web Attack and Enumeration/Untitled.md",
     "Web Attack and Enumeration/Common Injection List.md",
@@ -190,25 +217,13 @@
     "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
     "Web Attack and Enumeration/Command Injection/Command Filters.md",
     "Web Attack and Enumeration/IDOR",
-    "Web Attack and Enumeration/IDOR.md",
     "Web Attack and Enumeration/Verb Tampering",
-    "Web Attack and Enumeration/Command Injection/Prevention.md",
-    "Pasted image 20250410124056.png",
-    "Web Attack and Enumeration/File Upload/Black&White List Filters.md",
+    "Pictures/Pasted image 20250410124056.png",
     "Web Attack and Enumeration/Command Injection",
-    "Web Attack and Enumeration/File Upload/Bypass Client Validation.md",
-    "Web Attack and Enumeration/File Upload/Type Filters.md",
-    "Pasted image 20250217204503.png",
+    "Pictures/Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png",
     "Web Attack and Enumeration/File Upload",
-    "Web Attack and Enumeration/File Inclusion/Log Poisoning",
-    "Web Attack and Enumeration/File Inclusion/Remote File Inclusion",
-    "Web Attack and Enumeration/File Inclusion/Local File Inclusion",
     "Pictures/trusts-diagram.webp",
-    "Active Directory/pentest_ad_dark_2022_11.svg",
-    "Pictures/Pasted image 20240924215757.png",
-    "Pictures/Pasted image 20241016195900.png",
-    "Pictures/Pasted image 20241014160326.png",
-    "Pasted image 20241003001700.png"
+    "Active Directory/pentest_ad_dark_2022_11.svg"
   ]
 }
