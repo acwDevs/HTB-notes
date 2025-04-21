@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reports/Joomla Joomla Intro Report.md",
+                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal/Attacking Drupal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Joomla Joomla Intro Report"
+              "title": "Attacking Drupal"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration.md",
+                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration CMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General Overview of Enumeration"
+              "title": "General Overview of Enumeration CMS"
             }
           }
         ]
@@ -179,20 +179,25 @@
   },
   "active": "7f1b6eacc434ac48",
   "lastOpenFiles": [
+    "Pasted image 20250421011002.png",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal/Enumerating Drupal.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal/Attacking Drupal.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Attacking Joomla.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Attacking CMS.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration CMS.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress/Enumerating WordPress.md",
+    "Reports/Joomla Joomla Intro Report.md",
     "Pasted image 20250421001106.png",
     "Pasted image 20250421001043.png",
     "Pasted image 20250421000836.png",
-    "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Attacking Joomla.md",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Enumerating Joomla.md",
-    "Reports/Joomla Joomla Intro Report.md",
     "Pasted image 20250420223836.png",
     "Pictures/Pasted image 20250420223601.png",
     "Pictures/Pasted image 20250420223502.png",
     "Web Attack and Enumeration/Common Applications/Report Skeleton.md",
     "Reports",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress/Attacking WordPress.md",
-    "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration.md",
-    "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress/Enumerating WordPress.md",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress",
     "Web Attack and Enumeration/Common Applications/Content Management Sys",
@@ -213,17 +218,12 @@
     "Web Attack and Enumeration/Verb Tampering/Verb List.md",
     "Web Attack and Enumeration/XXE",
     "Web Attack and Enumeration/Command Injection/Character Filters.md",
-    "Web Attack and Enumeration/Command Injection/Evasion Tools.md",
-    "Web Attack and Enumeration/Command Injection/Detection and Methods.md",
-    "Web Attack and Enumeration/Command Injection/Command Filters.md",
     "Web Attack and Enumeration/IDOR",
     "Web Attack and Enumeration/Verb Tampering",
     "Pictures/Pasted image 20250410124056.png",
     "Web Attack and Enumeration/Command Injection",
     "Pictures/Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png",
-    "Web Attack and Enumeration/File Upload",
-    "Pictures/trusts-diagram.webp",
-    "Active Directory/pentest_ad_dark_2022_11.svg"
+    "Pictures/trusts-diagram.webp"
   ]
 }

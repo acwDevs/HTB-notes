@@ -6,8 +6,12 @@
 	2. README.txt
 	3. Administrative directories
 	4. Content directories
-3. Using automated scanning tools
+3. Look for version information
+	1. CMS version
+	2. Plugin Version
+4. Using automated scanning tools
 	1. [droopescan](https://github.com/droope/droopescan)
 		1. Plugin based scanner for various CMS
 	2. [WPScan](https://github.com/wpscanteam/wpscan)
 		1. Wordpress scanning toolkit
+5. Attempt user enumeration on login portals
