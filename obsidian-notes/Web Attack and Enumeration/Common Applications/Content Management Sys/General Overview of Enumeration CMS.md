@@ -1,5 +1,3 @@
-
-
 1. Look for keywords in output that can point to which CMS is being used
 2. Check common extensions for CMS systems
 	1. robots.txt
@@ -15,3 +13,5 @@
 	2. [WPScan](https://github.com/wpscanteam/wpscan)
 		1. Wordpress scanning toolkit
 5. Attempt user enumeration on login portals
+
+

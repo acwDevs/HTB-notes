@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Common Applications/Web Server/Apache Tomcat/Enumerating Tomcat.md",
+                "file": "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Apache Tomcat/Enumerating Tomcat.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration CMS.md",
+                "file": "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk/Enumeration Splunk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General Overview of Enumeration CMS"
+              "title": "Enumeration Splunk"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 352.5
   },
   "right": {
     "id": "ce5ae2a926897a1c",
@@ -177,15 +178,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f1b6eacc434ac48",
+  "active": "c3f5fe598e566b3c",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/Common Applications/Web Server/Apache Tomcat/Attacking Tomcat.md",
-    "Web Attack and Enumeration/Common Applications/Web Server/Apache Tomcat/Enumerating Tomcat.md",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Jenkins/Attacking Jenkins.md",
+    "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk/Enumeration Splunk.md",
+    "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk",
+    "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Jenkins/Enumerating Discovery.md",
+    "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration CMS.md",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Jenkins",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Apache Tomcat/Enumerating Tomcat.md",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Apache Tomcat/Attacking Tomcat.md",
     "Pictures/Pasted image 20250420223836.png",
     "Reports/Joomla Intro Report.md",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal/Attacking Drupal.md",
-    "Web Attack and Enumeration/Common Applications/Web Server/Apache Tomcat",
-    "Web Attack and Enumeration/Common Applications/Web Server",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Apache Tomcat",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Attacking Joomla.md",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Joomla/Enumerating Joomla.md",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/WordPress/Enumerating WordPress.md",
@@ -194,7 +202,6 @@
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal/Enumerating Drupal.md",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/Drupal",
     "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Attacking CMS.md",
-    "Web Attack and Enumeration/Common Applications/Content Management Sys/General Overview of Enumeration CMS.md",
     "Pictures/Pasted image 20250421001106.png",
     "Pictures/Pasted image 20250421001043.png",
     "Pictures/Pasted image 20250421000836.png",
@@ -208,7 +215,6 @@
     "Web Attack and Enumeration/Common Applications/Discovery and Enumeration.md",
     "Web Attack and Enumeration/Common Applications/Vhost add command.md",
     "Web Attack and Enumeration/Common Applications/Common Apps List.md",
-    "Web Attack and Enumeration/Common Applications",
     "Web Attack and Enumeration/Untitled.md",
     "Web Attack and Enumeration/Common Injection List.md",
     "Web Attack and Enumeration/XXE/Local File Disclosure.md",
@@ -217,11 +223,6 @@
     "Web Attack and Enumeration/XXE/Basics.md",
     "Web Attack and Enumeration/IDOR/Extracting Objects.md",
     "Web Attack and Enumeration/IDOR/LOOK AT ME.md",
-    "Web Attack and Enumeration/Verb Tampering/Bypassing Auth & Filters.md",
-    "Web Attack and Enumeration/Verb Tampering/Prevention.md",
-    "Web Attack and Enumeration/Verb Tampering/Verb List.md",
-    "Web Attack and Enumeration/XXE",
-    "Web Attack and Enumeration/IDOR",
     "Pictures/Pasted image 20250410124056.png",
     "Pictures/Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png"
