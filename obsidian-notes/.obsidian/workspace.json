@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk/Enumeration Splunk.md",
+                "file": "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk/Attacking Splunk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration Splunk"
+              "title": "Attacking Splunk"
             }
           }
         ],
@@ -180,8 +180,9 @@
   },
   "active": "c3f5fe598e566b3c",
   "lastOpenFiles": [
-    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Jenkins/Attacking Jenkins.md",
     "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk/Enumeration Splunk.md",
+    "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk/Attacking Splunk.md",
+    "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Jenkins/Attacking Jenkins.md",
     "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools/Splunk",
     "Web Attack and Enumeration/Common Applications/Infrastructure&Network Monitoring Tools",
     "Web Attack and Enumeration/Common Applications/Servlet Containers&Software Development/Jenkins/Enumerating Discovery.md",
@@ -222,7 +223,6 @@
     "Web Attack and Enumeration/XXE/Prevention.md",
     "Web Attack and Enumeration/XXE/Basics.md",
     "Web Attack and Enumeration/IDOR/Extracting Objects.md",
-    "Web Attack and Enumeration/IDOR/LOOK AT ME.md",
     "Pictures/Pasted image 20250410124056.png",
     "Pictures/Pasted image 20250217204503.png",
     "Pictures/Pasted image 20250210222316.png"
