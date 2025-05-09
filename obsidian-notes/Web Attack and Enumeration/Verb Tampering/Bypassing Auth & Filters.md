@@ -1,4 +1,4 @@
-
+HEAD
 
 Determine request options allowed
 ```shell-session
